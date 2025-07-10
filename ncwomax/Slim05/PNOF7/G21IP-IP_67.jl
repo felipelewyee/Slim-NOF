@@ -1,0 +1,27 @@
+using DoNOF
+
+mol = """
+1 2
+   P          0.00000056     -0.28185322      0.00000000
+   H         -0.67735368      0.09395088      1.17320622
+   H          1.35470680      0.09395145      0.00000000
+   H         -0.67735368      0.09395088     -1.17320622
+"""
+
+bset,p = DoNOF.molecule(mol,"def2-qzvp",spherical=true)
+
+p.title = "G21IP-IP_67"
+
+p.ipnof = 7
+
+p.RI = true
+p.maxit = 40
+
+p.maxloop = 10
+
+#DoNOF.set_ncwo(p,1)
+
+C = DoNOF.read_C(title=p.title)
+n = DoNOF.read_n(title=p.title)
+
+DoNOF.energy(bset,p,C=C,n=n,do_hfidr=false,do_m_diagnostic=true)

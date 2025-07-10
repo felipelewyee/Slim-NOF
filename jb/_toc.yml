@@ -1,0 +1,25 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Perfect Pairing Slim05
+    chapters:
+      - file: Slim05-GNOFa25-PP.ipynb
+      - file: Slim05-GNOFa20-PP.ipynb
+      - file: Slim05-GNOFm25-PP.ipynb
+      - file: Slim05-GNOFm20-PP.ipynb
+      - file: Slim05-GNOF-PP.ipynb
+      - file: Slim05-PNOF7-PP.ipynb
+      - file: Slim05-PNOF5-PP.ipynb
+  - caption: Extended Pairing Slim05
+    chapters:
+      - file: Slim05-GNOFa25-EP.ipynb
+      - file: Slim05-GNOFa20-EP.ipynb
+      - file: Slim05-GNOFm25-EP.ipynb
+      - file: Slim05-GNOFm20-EP.ipynb
+      - file: Slim05-GNOF-EP.ipynb
+      - file: Slim05-PNOF7-EP.ipynb
+      - file: Slim05-PNOF5-EP.ipynb
+
