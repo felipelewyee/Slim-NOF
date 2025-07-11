@@ -1,0 +1,102 @@
+BHROT27-h2o2_cis
+/software/eb2024/easybuild/software/common/software/Julia/1.11.3-linux-x86_64/bin/julia
+Job runing on nh018
+Choosing scratch ...
+Automatic scratch folder selection
+/scratch/pobleyef/286418
+/scratch/pobleyef/286418 directory
+cp BHROT27-h2o2_cis.jl BHROT27-h2o2_cis.jld2 to  /scratch/pobleyef/286418/.
+BHROT27-h2o2_cis_C.jld2 not found
+BHROT27-h2o2_cis_n.jld2 not found
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    3.80 Seconds
+
+Number of basis functions                   (NBF)    = 174
+Number of auxiliary basis functions         (NBFAUX) = 190
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 9
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 18
+No. of electrons                                     = 18
+    No. of alpha electrons                           = 9
+    No. of beta electrons                            = 9
+Multiplicity                                         = 1
+
+Geometry
+========
+ O       0.7209435       0.0000000       0.4642736
+ O      -0.7209435       0.0000000       0.4642736
+ H       0.9743565       0.0000000      -0.4642670
+ H      -0.9743565       0.0000000      -0.4642670
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF5/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    2.9e+01   15    3.4e+01  -182.15800430  -145.22130106 -10181.15800430   0.616059   2.5e+00   2.5e-04 0.22
+     2      10    1.2e+00   16    6.3e-03  -186.85815286  -149.92144962    -4.70014856   0.248690   9.9e-01   6.2e-05 0.20
+     3      10    1.1e+00    7    3.4e-03  -187.71569602  -150.77899278    -0.85754316   0.182335   7.3e-01   1.9e-04 0.11
+     4      10    1.1e+00    6    9.3e-03  -187.84680396  -150.91010072    -0.13110794   0.288432   1.2e+00   1.4e-05 0.08
+     5      10    1.1e+00    4    1.3e-02  -187.86866490  -150.93196167    -0.02186095   0.299846   1.2e+00   3.9e-05 0.07
+     6      10    1.0e+00    0    2.1e-02  -187.86901876  -150.93231552    -0.00035385   0.299846   1.2e+00   3.9e-05 0.07
+     7      30    3.0e+00    3    3.2e-03  -187.92686442  -150.99016118    -0.05784566   0.006923   2.8e-02   1.6e-04 0.06
+     8      30    3.3e+00    2    8.0e-02  -187.92746159  -150.99075836    -0.00059718   0.009797   3.9e-02   1.1e-04 0.06
+     9      30    3.5e+00    0    1.0e-02  -187.92749431  -150.99079107    -0.00003271   0.009797   3.9e-02   1.1e-04 0.06
+    10      50    5.9e+00    1    3.5e-03  -187.92784170  -150.99113846    -0.00034739   0.000975   3.9e-03   1.8e-04 0.06
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9998134  -20.59046248
+   2    1.9998136  -20.58991065
+   3    1.9816116  -0.91787434
+   4    1.9816015  -0.91746591
+   5    1.9935605  -0.83642045
+   6    1.9935686  -0.83601360
+   7    1.9934153  -0.83124788
+   8    1.9933408  -0.82966112
+   9    1.9397112  -0.75762345
+  10    0.0602888  -0.04226971
+  11    0.0066592  -0.00881075
+  12    0.0065847  -0.00877037
+  13    0.0064314  -0.00867800
+  14    0.0064395  -0.00868206
+  15    0.0183985  -0.01902663
+  16    0.0183884  -0.01902403
+  17    0.0001864  -0.00698935
+  18    0.0001866  -0.00699141
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =    -150.9911385
+ 
+Total Orbital Internal Iterations = 200
+Total Occupation Internal Iterations = 54
+ 
+Elapsed time:  106.00 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     O     7.616       0.384
+  2     O     7.616       0.384
+  3     H     1.384      -0.384
+  4     H     1.384      -0.384
+
+---------------------------------
+   M Diagnostic: 0.06
+---------------------------------
+
+Recovering execution output...
+Moving from /scratch/pobleyef/286418 to /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/PNOF5/arina.286418
+mkdir -p /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/PNOF5/arina.286418
+mv /scratch/pobleyef/286418/* /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/PNOF5/arina.286418

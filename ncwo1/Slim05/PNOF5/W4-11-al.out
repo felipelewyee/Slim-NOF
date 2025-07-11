@@ -1,0 +1,90 @@
+W4-11-al
+/software/eb2024/easybuild/software/common/software/Julia/1.11.3-linux-x86_64/bin/julia
+Job runing on nh005
+Choosing scratch ...
+Automatic scratch folder selection
+/scratch/pobleyef/286551
+/scratch/pobleyef/286551 directory
+cp W4-11-al.jl W4-11-al.jld2 to  /scratch/pobleyef/286551/.
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    3.57 Seconds
+
+Number of basis functions                   (NBF)    = 70
+Number of auxiliary basis functions         (NBFAUX) = 128
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 6
+No. considered Strongly Singly occupied MOs (NSOC)   = 1
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 13
+No. of electrons                                     = 13
+    No. of alpha electrons                           = 7
+    No. of beta electrons                            = 6
+Multiplicity                                         = 2
+
+Geometry
+========
+Al       0.0000000       0.0000000       0.0000000
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF5/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    2.8e+01    4    3.3e+01  -241.92300640  -241.92300640 -10240.92300640   0.003593   1.4e-02   3.1e-05 0.06
+     2      20    8.4e-02    1    1.1e-03  -241.92787345  -241.92787345    -0.00486704   0.018478   7.4e-02   1.3e-04 0.05
+     3      20    4.9e-02    0    7.1e-04  -241.92817563  -241.92817563    -0.00030218   0.015749   6.3e-02   1.7e-04 0.05
+     4      30    7.9e-02    0    1.2e-03  -241.92835279  -241.92835279    -0.00017716   0.011968   4.8e-02   1.5e-04 0.05
+     5      40    1.1e-01    0    7.7e-04  -241.92850480  -241.92850480    -0.00015201   0.009090   3.6e-02   1.9e-04 0.05
+     6      50    1.2e-01    0    1.2e-03  -241.92859365  -241.92859365    -0.00008885   0.005701   2.3e-02   1.9e-04 0.05
+     7      60    1.3e-01    0    9.6e-04  -241.92863289  -241.92863289    -0.00003924   0.004447   1.8e-02   2.4e-04 0.05
+     8      70    1.5e-01    1    1.2e-03  -241.92865126  -241.92865126    -0.00001837   0.003919   1.6e-02   4.9e-05 0.05
+     9      70    1.5e-01    0    8.4e-04  -241.92867407  -241.92867407    -0.00002281   0.003010   1.2e-02   1.2e-04 0.05
+    10      80    1.8e-01    0    9.1e-04  -241.92867407  -241.92867407     0.00000000   0.003010   1.2e-02   1.2e-04 0.05
+    11      85    1.8e-01    0    1.2e-03  -241.92872177  -241.92872177    -0.00004770   0.000493   2.0e-03   1.7e-04 0.05
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9999520  -58.24817101
+   2    1.9989966  -3.72749662
+   3    1.9989170  -3.71614309
+   4    1.9988767  -3.71158791
+   5    1.9988519  -3.71008205
+   6    1.9461743  -0.39674737
+   7    1.0000000  -0.10451362
+   8    0.0538257  -0.01712684
+   9    0.0011481  -0.00625483
+  10    0.0011233  -0.00604363
+  11    0.0010830  -0.00591287
+  12    0.0010034  -0.00555902
+  13    0.0000480  -0.00577977
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =    -241.9287218
+ 
+Total Orbital Internal Iterations = 535
+Total Occupation Internal Iterations = 6
+ 
+Elapsed time:   81.15 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1    Al    13.000      -0.000
+
+---------------------------------
+   M Diagnostic: 0.05
+---------------------------------
+
+Recovering execution output...
+Moving from /scratch/pobleyef/286551 to /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/PNOF5/arina.286551
+mkdir -p /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/PNOF5/arina.286551
+mv /scratch/pobleyef/286551/* /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/PNOF5/arina.286551

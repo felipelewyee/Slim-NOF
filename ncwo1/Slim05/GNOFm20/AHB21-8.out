@@ -1,0 +1,45 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    2.62 Seconds
+
+Number of basis functions                   (NBF)    = 170
+Number of auxiliary basis functions         (NBFAUX) = 274
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 18
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 36
+No. of electrons                                     = 36
+    No. of alpha electrons                           = 18
+    No. of beta electrons                            = 18
+Multiplicity                                         = 1
+
+Geometry
+========
+Cl      -1.0843247      -0.3773750       0.8015475
+ H      -0.9189248       0.2767412      -0.5944477
+Cl      -0.7548901       0.9332094      -1.9983145
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    1.0e+01   12    1.2e+01  -980.86046023  -920.09463891 -10979.86046023   0.023057   9.2e-02   2.9e-04 0.03
+     2      20    2.2e+00    6    2.4e-02  -981.03419788  -920.26837657    -0.17373766   0.094735   3.8e-01   1.0e-04 0.03
+     3      20    2.6e+00    6    6.2e-02  -981.06345557  -920.29763426    -0.02925769   0.093859   3.8e-01   1.6e-04 0.03
+     4      20    3.0e+00    7    3.8e-02  -981.08137235  -920.31555103    -0.01791678   0.096087   3.8e-01   1.3e-04 0.03
+     5      20    3.3e+00    6    5.9e-02  -981.09022358  -920.32440226    -0.00885123   0.091568   3.7e-01   1.1e-04 0.03
+     6      20    2.6e+00    4    6.8e-02  -981.09180207  -920.32598075    -0.00157849   0.079337   3.2e-01   3.0e-04 0.03
+     7      20    3.0e+00    4    2.5e-02  -981.09310418  -920.32728286    -0.00130211   0.074785   3.0e-01   2.1e-04 0.03
+     8      20    3.2e+00    4    6.0e-02  -981.09406648  -920.32824516    -0.00096230   0.071957   2.9e-01   1.7e-04 0.03
+     9      20    3.3e+00    0    2.1e-02  -981.09415613  -920.32833481    -0.00008965   0.071957   2.9e-01   1.7e-04 0.03
+    10      40    5.3e+00    4    3.6e-02  -981.11309173  -920.34727041    -0.01893560   0.010569   4.2e-02   1.4e-04 0.03
+    11      40    5.7e+00    3    4.6e-02  -981.11372012  -920.34789880    -0.00062839   0.013704   5.5e-02   1.5e-04 0.03
+    12      40    4.4e+00    3    4.7e-02  -981.11406819  -920.34824688    -0.00034808   0.011939   4.8e-02   1.3e-04 0.03
+    13      40    3.8e+00    3    4.7e-02  -981.11451195  -920.34869063    -0.00044376   0.011605   4.6e-02   1.2e-04 0.03
+    14      40    4.2e+00    1    5.7e-02  -981.11471445  -920.34889313    -0.00020250   0.011936   4.8e-02   2.2e-04 0.03
