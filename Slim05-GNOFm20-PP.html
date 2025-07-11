@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -170,7 +170,9 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Perfect Pairing Slim05</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Slim05-GNOF-PP.html">GNOF</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Slim05-PNOF7-PP.html">PNOF7</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Slim05-PNOF5-PP.html">PNOF5</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Extended Pairing Slim05</span></p>
 <ul class="nav bd-sidenav">
@@ -403,6 +405,32 @@
   <section class="tex2jax_ignore mathjax_ignore" id="gnofm20">
 <h1>GNOFm20<a class="headerlink" href="#gnofm20" title="Link to this heading">#</a></h1>
 <div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Warning: MAD value is too high for system 14 in set HAL59 and was excluded
+Warning: MAD value is too high for system 27 in set HEAVY28 and was excluded
+Warning: MAD value is too high for system 25 in set HEAVY28 and was excluded
+Warning: MAD value is too high for system 109 in set W4-11 and was excluded
+</pre></div>
+</div>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">TypeError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">10</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">from</span><span class="w"> </span><span class="nn">myst_nb</span><span class="w"> </span><span class="kn">import</span> <span class="n">glue</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">MAD_Slim</span> <span class="o">=</span> <span class="n">get_total_MAD_of_whole_set</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">glue</span><span class="p">(</span><span class="s2">&quot;MAD_Slim&quot;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">{:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">MAD_Slim</span><span class="p">),</span> <span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">glue</span><span class="p">(</span><span class="s2">&quot;benchmark&quot;</span><span class="p">,</span> <span class="n">benchmark</span><span class="p">,</span> <span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="nn">Cell In[9], line 6,</span> in <span class="ni">get_total_MAD_of_whole_set</span><span class="nt">(data)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="k">for</span> <span class="n">system</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="nb">set</span><span class="p">]:</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span>     <span class="n">AD</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="nb">set</span><span class="p">][</span><span class="n">system</span><span class="p">][</span><span class="s2">&quot;AD&quot;</span><span class="p">]</span>
+<span class="ne">----&gt; </span><span class="mi">6</span>     <span class="k">if</span><span class="p">(</span><span class="n">AD</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">):</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span>         <span class="n">ADs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="nb">set</span><span class="p">][</span><span class="n">system</span><span class="p">][</span><span class="s2">&quot;AD&quot;</span><span class="p">])</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span>     <span class="k">else</span><span class="p">:</span>
+
+<span class="ne">TypeError</span>: &#39;&lt;&#39; not supported between instances of &#39;str&#39; and &#39;int&#39;
+</pre></div>
+</div>
+</div>
 </div>
 <div class="tip admonition">
 <p class="admonition-title">Mean Absolute Deviation (MAD) of the set</p>
@@ -410,7 +438,7 @@
 <li><p>Computed as the sum of all Absolute Deviations (AD) divided by 30 (the number of reactions on the set).</p></li>
 </ul>
 <hr class="docutils" />
-<p><strong>MAD <span class="output text_plain">‘P30-5’</span></strong> = <span class="output text_plain">‘20.20’</span> kcal/mol</p>
+<p><strong>MAD </strong> =  kcal/mol</p>
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
@@ -424,7 +452,7 @@
     </style>
     <div>
         <a href="https://bokeh.org" target="_blank" class="bk-notebook-logo"></a>
-        <span id="dc560cf2-6687-4f2a-af7c-943a109210cf">Loading BokehJS ...</span>
+        <span id="b7459fc1-2618-4061-952a-3061c0c55537">Loading BokehJS ...</span>
     </div>
 </div><script type="application/javascript">'use strict';
 (function(root) {
@@ -589,7 +617,7 @@ const JS_MIME_TYPE = 'application/javascript';
      "</div>"}};
 
   function display_loaded(error = null) {
-    const el = document.getElementById("dc560cf2-6687-4f2a-af7c-943a109210cf");
+    const el = document.getElementById("b7459fc1-2618-4061-952a-3061c0c55537");
     if (el != null) {
       const html = (() => {
         if (typeof root.Bokeh === "undefined") {
@@ -723,7 +751,7 @@ function(Bokeh) {
       console.log("Bokeh: BokehJS failed to load within specified timeout.");
       root._bokeh_failed_load = true;
     } else if (force !== true) {
-      const cell = $(document.getElementById("dc560cf2-6687-4f2a-af7c-943a109210cf")).parents('.cell').data().cell;
+      const cell = $(document.getElementById("b7459fc1-2618-4061-952a-3061c0c55537")).parents('.cell').data().cell;
       cell.output_area.append_execute_result(NB_LOAD_WARNING)
     }
   }
@@ -744,17 +772,17 @@ function(Bokeh) {
 <p>The following plot indicates the contribution of each subset to the MAD of the whole set.</p>
 <ul class="simple">
 <li><p>Computed as the sum of the Absolute Deviations of each subset divided by 30.</p></li>
-<li><p>The sum of each bar result in MAD_<span class="output text_plain">’P30-5’</span></p></li>
+<li><p>The sum of each bar result in MAD_</p></li>
 </ul>
 </div>
 <div class="cell tag_remove-input tag_full-width docutils container">
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="e372bfd3-97a1-43bb-bf7b-b7724b4dae09" data-root-id="p1004" style="display: contents;"></div>
+  <div id="c4796b68-8aa3-4c2f-ad41-d7495718f331" data-root-id="p1004" style="display: contents;"></div>
 </div><script type="application/javascript">(function(root) {
   function embed_document(root) {
-  const docs_json = {"17819352-1846-4274-9332-e1372a407125":{"version":"3.6.2","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1004","attributes":{"width":1050,"height":400,"x_range":{"type":"object","name":"FactorRange","id":"p1014","attributes":{"factors":["SIE4x4","ALKBDE10","BH76","W4-11","G2RC","DC13"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1006"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1015"},"y_scale":{"type":"object","name":"LinearScale","id":"p1016"},"title":{"type":"object","name":"Title","id":"p1007","attributes":{"text":"Contribution to P30-5 GNOFm20 Mean Absolute Deviation"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1047","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1001","attributes":{"selected":{"type":"object","name":"Selection","id":"p1002","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1003"},"data":{"type":"map","entries":[["subsets",["SIE4x4","ALKBDE10","BH76","W4-11","G2RC","DC13"]],["counts",[2.1487120666666915,1.6981839833331955,0.6344294000005661,14.037619749997358,0.7068706333367932,0.9735546583334023]],["description",["Self-interaction-error related problems","Dissociation energies in group-1 and -2 diatomics","Barrier heights of hydrogen transfer, heavy atom transfer, nucleophilic substitution, unimolecular and association reactions","Total atomisation energies","Reaction energies of selected G2/97 systems","13 difficult cases for DFT methods"]]]}}},"view":{"type":"object","name":"CDSView","id":"p1048","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1049"}}},"glyph":{"type":"object","name":"VBar","id":"p1044","attributes":{"x":{"type":"field","field":"subsets"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"counts","transform":{"type":"object","name":"LinearColorMapper","id":"p1040","attributes":{"palette":["#006837","#1a9850","#66bd63","#a6d96a","#d9ef8b","#ffffbf","#fee08b","#fdae61","#f46d43","#d73027","#a50026"],"low":0.6344294000005661,"high":14.037619749997358}}}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1045","attributes":{"x":{"type":"field","field":"subsets"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"counts","transform":{"id":"p1040"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1046","attributes":{"x":{"type":"field","field":"subsets"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"counts","transform":{"id":"p1040"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1013","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1027"},{"type":"object","name":"WheelZoomTool","id":"p1028","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1029","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1030","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1036","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1035","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p1037"},{"type":"object","name":"ResetTool","id":"p1038"},{"type":"object","name":"HelpTool","id":"p1039"},{"type":"object","name":"HoverTool","id":"p1050","attributes":{"renderers":"auto","tooltips":[["Description","@description"],["MAD","@counts"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1022","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1023","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1024"},"axis_label":"Contribution to MAD_P30-5 (kcal/mol)","major_label_policy":{"type":"object","name":"AllLabels","id":"p1025"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1017","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1018"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1019"},"axis_label":"Sets","major_label_orientation":1.5707963267948966,"major_label_policy":{"type":"object","name":"AllLabels","id":"p1020"}}}],"center":[{"type":"object","name":"Grid","id":"p1021","attributes":{"axis":{"id":"p1017"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1026","attributes":{"dimension":1,"axis":{"id":"p1022"}}}]}}]}};
-  const render_items = [{"docid":"17819352-1846-4274-9332-e1372a407125","roots":{"p1004":"e372bfd3-97a1-43bb-bf7b-b7724b4dae09"},"root_ids":["p1004"]}];
+  const docs_json = {"f0280352-d68c-45e6-83d6-2d171299180b":{"version":"3.6.2","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1004","attributes":{"width":1050,"height":400,"x_range":{"type":"object","name":"FactorRange","id":"p1014","attributes":{"factors":["DIPCS10","INV24","RG18","ALKBDE10","BH76","G2RC","HEAVYSB11","BHROT27","SIE4x4","RSE43","PA26","HAL59","BH76RC","HEAVY28","G21EA","AHB21","W4-11","WATER27","TAUT15","G21IP","CHB6","WCPT18"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1006"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1015"},"y_scale":{"type":"object","name":"LinearScale","id":"p1016"},"title":{"type":"object","name":"Title","id":"p1007","attributes":{"text":"Contribution to Slim05 GNOFm20 Mean Absolute Deviation"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1047","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1001","attributes":{"selected":{"type":"object","name":"Selection","id":"p1002","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1003"},"data":{"type":"map","entries":[["subsets",["DIPCS10","INV24","RG18","ALKBDE10","BH76","G2RC","HEAVYSB11","BHROT27","SIE4x4","RSE43","PA26","HAL59","BH76RC","HEAVY28","G21EA","AHB21","W4-11","WATER27","TAUT15","G21IP","CHB6","WCPT18"]],["counts",[1.1242029833327478,0.8015020833336167,6.474447358396166,0.0,1.8156361249992914,3.8332905833306343,4.051972699996705,0.0860280750017652,0.08775314166666134,0.1711480500000956,0.9747399416665402,0.3393627083484995,0.3571694749998327,0.0,4.250732308333293,0.2061088500008142,7.976179650000203,0.3101038833328892,0.13197905833212037,9.729698741668544,0.0,0.8375415416665493]],["description",["Double-ionisation potentials of closed-shell systems","Inversion/racemisation barrier heights","Interaction energies in rare-gas complexes","Dissociation energies in group-1 and -2 diatomics","Barrier heights of hydrogen transfer, heavy atom transfer, nucleophilic substitution, unimolecular and association reactions","Reaction energies of selected G2/97 systems","Dissociation energies in heavy-element compounds","Barrier heights for rotation around single bonds","Self-interaction-error related problems","Radical-stabilisation energies","Adiabatic proton affinities (incl. of amino acids)","Binding energies in halogenated dimers (incl. halogen bonds)","Reaction energies of the BH76 set","Noncovalent interaction energies between heavy element hydrides","Adiabatic electron affinities","Interaction energies in anion\u2013neutral dimers","Total atomisation energies","Binding energies in (H2O)n, H+(H2O)n and OH-(H2O)n","Relative energies in tautomers","Adiabatic ionisation potentials","Interaction energies in cation\u2013neutral dimers","Proton-transfer barriers in uncatalysed and water-catalysed reactions"]]]}}},"view":{"type":"object","name":"CDSView","id":"p1048","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1049"}}},"glyph":{"type":"object","name":"VBar","id":"p1044","attributes":{"x":{"type":"field","field":"subsets"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"field","field":"counts","transform":{"type":"object","name":"LinearColorMapper","id":"p1040","attributes":{"palette":["#006837","#1a9850","#66bd63","#a6d96a","#d9ef8b","#ffffbf","#fee08b","#fdae61","#f46d43","#d73027","#a50026"],"low":0.0,"high":9.729698741668544}}}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1045","attributes":{"x":{"type":"field","field":"subsets"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"counts","transform":{"id":"p1040"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1046","attributes":{"x":{"type":"field","field":"subsets"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"counts"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"counts","transform":{"id":"p1040"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1013","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1027"},{"type":"object","name":"WheelZoomTool","id":"p1028","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1029","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1030","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1036","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1035","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p1037"},{"type":"object","name":"ResetTool","id":"p1038"},{"type":"object","name":"HelpTool","id":"p1039"},{"type":"object","name":"HoverTool","id":"p1050","attributes":{"renderers":"auto","tooltips":[["Description","@description"],["MAD","@counts"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1022","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1023","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1024"},"axis_label":"Contribution to MAD_Slim05 (kcal/mol)","major_label_policy":{"type":"object","name":"AllLabels","id":"p1025"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1017","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1018"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1019"},"axis_label":"Sets","major_label_orientation":1.5707963267948966,"major_label_policy":{"type":"object","name":"AllLabels","id":"p1020"}}}],"center":[{"type":"object","name":"Grid","id":"p1021","attributes":{"axis":{"id":"p1017"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1026","attributes":{"dimension":1,"axis":{"id":"p1022"}}}]}}]}};
+  const render_items = [{"docid":"f0280352-d68c-45e6-83d6-2d171299180b","roots":{"p1004":"c4796b68-8aa3-4c2f-ad41-d7495718f331"},"root_ids":["p1004"]}];
   void root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
   }
   if (root.Bokeh !== undefined) {
