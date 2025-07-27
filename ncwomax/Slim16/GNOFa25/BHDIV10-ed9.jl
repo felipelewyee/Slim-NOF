@@ -1,0 +1,37 @@
+using DoNOF
+
+mol = """
+0 1
+Si   -1.3418615   -0.8206294   -0.3383459 
+C     0.5366620   -0.8019029   -0.1784067 
+C     1.1754740    0.4922562    0.2267866 
+H     0.9652399   -1.1299744   -1.1334043 
+H     0.8293912   -1.5845405    0.5324408 
+C     0.5551338    1.6308725    0.5044071 
+H     2.2608954    0.4740517    0.2959107 
+H    -0.5232163    1.7432822    0.4610021 
+H     1.1094071    2.5161533    0.7884021 
+H    -1.8020550    0.1419220   -1.3576988 
+H    -1.9937159   -0.4885147    0.9430933 
+H    -1.7713547   -2.1729760   -0.7441870 
+"""
+
+bset,p = DoNOF.molecule(mol,"def2-qzvp",spherical=true)
+
+p.title = "BHDIV10-ed9"
+
+p.ipnof = 8
+p.ista = 4
+p.h_cut = 0.025 * sqrt(2)
+
+p.RI = true
+p.maxit = 40
+
+p.maxloop = 10
+
+#DoNOF.set_ncwo(p,1)
+
+C = DoNOF.read_C(title=p.title)
+n = DoNOF.read_n(title=p.title)
+
+DoNOF.energy(bset,p,C=C,n=n,do_hfidr=false,do_m_diagnostic=true)
