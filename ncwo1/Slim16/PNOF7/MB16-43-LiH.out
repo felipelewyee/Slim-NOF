@@ -1,0 +1,63 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    1.54 Seconds
+
+Number of basis functions                   (NBF)    = 65
+Number of auxiliary basis functions         (NBFAUX) = 69
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 2
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 4
+No. of electrons                                     = 4
+    No. of alpha electrons                           = 2
+    No. of beta electrons                            = 2
+Multiplicity                                         = 1
+
+Geometry
+========
+Li       0.0000000       0.0000000      -0.7979820
+ H       0.0000000       0.0000000       0.7979820
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF7/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    9.0e+00    2    1.2e+01    -9.01132473    -8.01661032 -10008.01132473   0.006669   2.7e-02   7.9e-06 0.04
+     2      20    5.6e-03    1    1.7e-04    -9.01204498    -8.01733057    -0.00072025   0.002963   1.2e-02   2.3e-05 0.04
+     3      20    6.5e-03    1    1.3e-04    -9.01212452    -8.01741012    -0.00007955   0.000683   2.7e-03   2.3e-05 0.04
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9975629  -2.45950794
+   2    1.9603727  -0.31687802
+   3    0.0396273  -0.01517179
+   4    0.0024371  -0.01007031
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =      -8.0174101
+ 
+Total Orbital Internal Iterations = 50
+Total Occupation Internal Iterations = 4
+ 
+Elapsed time:   26.84 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1    Li     2.692       0.308
+  2     H     1.308      -0.308
+
+---------------------------------
+   M Diagnostic: 0.04
+---------------------------------
+

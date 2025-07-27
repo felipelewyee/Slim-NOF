@@ -1,0 +1,83 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    1.69 Seconds
+
+Number of basis functions                   (NBF)    = 114
+Number of auxiliary basis functions         (NBFAUX) = 152
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 6
+No. considered Strongly Singly occupied MOs (NSOC)   = 1
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 13
+No. of electrons                                     = 13
+    No. of alpha electrons                           = 7
+    No. of beta electrons                            = 6
+Multiplicity                                         = 2
+
+Geometry
+========
+ C       0.0000000       0.0000000      -0.6309800
+ N       0.0000000       0.0000000       0.5408400
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    9.4e+00    5    1.2e+01  -111.42499911   -92.45843661 -10110.42499911   0.015681   6.3e-02   1.6e-04 0.06
+     2      20    1.0e+00    7    2.1e-02  -111.43795192   -92.47138941    -0.01295281   0.012866   5.1e-02   1.8e-04 0.06
+     3      20    1.1e+00    7    4.3e-02  -111.44190463   -92.47534212    -0.00395271   0.010625   4.3e-02   1.3e-04 0.06
+     4      20    7.0e-01    6    1.6e-03  -111.44451919   -92.47795668    -0.00261456   0.011784   4.7e-02   2.5e-04 0.06
+     5      20    1.1e+00    6    6.8e-02  -111.44651437   -92.47995187    -0.00199519   0.011577   4.6e-02   8.5e-05 0.06
+     6      20    8.5e-01    5    1.7e-02  -111.44792104   -92.48135853    -0.00140666   0.009949   4.0e-02   1.3e-04 0.06
+     7      20    7.6e-01    4    7.4e-02  -111.44870281   -92.48214030    -0.00078178   0.010439   4.2e-02   2.2e-04 0.06
+     8      20    7.3e-01    4    1.9e-02  -111.44894841   -92.48238590    -0.00024559   0.012791   5.1e-02   5.3e-05 0.06
+     9      20    7.6e-01    0    3.8e-02  -111.44899173   -92.48242922    -0.00004332   0.012791   5.1e-02   5.3e-05 0.06
+    10      40    1.6e+00    3    1.7e-02  -111.45022644   -92.48366393    -0.00123471   0.001325   5.3e-03   9.4e-05 0.06
+    11      40    1.8e+00    3    1.8e-03  -111.45024218   -92.48367967    -0.00001575   0.002843   1.1e-02   1.9e-05 0.06
+    12      40    1.4e+00    1    1.2e-02  -111.45026851   -92.48370601    -0.00002633   0.001744   7.0e-03   9.9e-05 0.06
+    13      40    1.4e+00    0    6.1e-03  -111.45027010   -92.48370759    -0.00000159   0.001744   7.0e-03   9.9e-05 0.06
+    14      28    1.2e+00    0    1.8e-02  -111.45029980   -92.48373729    -0.00002970   0.000484   1.9e-03   1.7e-04 0.06
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9997880  -15.62484934
+   2    1.9994802  -11.32757657
+   3    1.9890652  -1.08034876
+   4    1.9762977  -0.82292166
+   5    1.9435754  -0.52635958
+   6    1.9435713  -0.52635902
+   7    1.0000000  -0.33193965
+   8    0.0564287  -0.04941826
+   9    0.0564246  -0.04941687
+  10    0.0237023  -0.03042674
+  11    0.0109348  -0.01932376
+  12    0.0005198  -0.00922678
+  13    0.0002120  -0.00588751
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -92.4837373
+ 
+Total Orbital Internal Iterations = 358
+Total Occupation Internal Iterations = 51
+ 
+Elapsed time:   43.02 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     C     6.049      -0.049
+  2     N     6.951       0.049
+
+---------------------------------
+   M Diagnostic: 0.06
+---------------------------------
+

@@ -1,0 +1,86 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    1.77 Seconds
+
+Number of basis functions                   (NBF)    = 144
+Number of auxiliary basis functions         (NBFAUX) = 204
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 8
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 16
+No. of electrons                                     = 16
+    No. of alpha electrons                           = 8
+    No. of beta electrons                            = 8
+Multiplicity                                         = 1
+
+Geometry
+========
+Be       0.7279036      -0.7279036       0.7279036
+Be      -0.7279036       0.7279036       0.7279036
+Be      -0.7279036      -0.7279036      -0.7279036
+Be       0.7279036       0.7279036      -0.7279036
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    9.5e+00    9    1.2e+01   -83.15522186   -58.48048018 -10082.15522186   0.014034   5.6e-02   1.7e-04 0.19
+     2      20    2.0e+00    5    8.7e-03   -83.18233789   -58.50759622    -0.02711603   0.010520   4.2e-02   2.6e-04 0.05
+     3      20    1.3e+00    3    1.1e-02   -83.19701215   -58.52227047    -0.01467426   0.003894   1.6e-02   6.1e-05 0.05
+     4      20    3.1e+00    3    4.3e-02   -83.19965995   -58.52491828    -0.00264781   0.004248   1.7e-02   4.5e-05 0.05
+     5      20    1.9e+00    2    7.1e-03   -83.20093524   -58.52619356    -0.00127528   0.004244   1.7e-02   1.7e-04 0.05
+     6      20    1.2e+00    2    1.2e-02   -83.20128857   -58.52654690    -0.00035334   0.003790   1.5e-02   1.3e-04 0.05
+     7      20    1.1e+00    2    1.2e-02   -83.20147580   -58.52673412    -0.00018722   0.003756   1.5e-02   9.3e-05 0.05
+     8      20    1.6e+00    1    9.8e-03   -83.20150433   -58.52676266    -0.00002854   0.004489   1.8e-02   2.1e-04 0.05
+     9      20    2.1e+00    0    4.0e-03   -83.20150750   -58.52676583    -0.00000317   0.004489   1.8e-02   2.1e-04 0.05
+    10      25    2.2e+00    1    5.9e-02   -83.20204370   -58.52730203    -0.00053621   0.000492   2.0e-03   8.6e-05 0.05
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9991618  -4.69208713
+   2    1.9984236  -4.69203914
+   3    1.9983931  -4.69190749
+   4    1.9986186  -4.69188363
+   5    1.9839835  -0.55629159
+   6    1.9552884  -0.28175538
+   7    1.9538614  -0.27985771
+   8    1.9531499  -0.27946717
+   9    0.0468501  -0.02107023
+  10    0.0461386  -0.02092944
+  11    0.0447116  -0.02065706
+  12    0.0160165  -0.01587876
+  13    0.0013814  -0.00971217
+  14    0.0016069  -0.01099018
+  15    0.0015764  -0.01081215
+  16    0.0008382  -0.00622031
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -58.5273020
+ 
+Total Orbital Internal Iterations = 195
+Total Occupation Internal Iterations = 28
+ 
+Elapsed time:   45.17 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1    Be     4.000      -0.000
+  2    Be     3.999       0.001
+  3    Be     3.999       0.001
+  4    Be     4.002      -0.002
+
+---------------------------------
+   M Diagnostic: 0.05
+---------------------------------
+

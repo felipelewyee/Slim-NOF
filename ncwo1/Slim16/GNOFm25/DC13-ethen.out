@@ -1,0 +1,91 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    2.74 Seconds
+
+Number of basis functions                   (NBF)    = 234
+Number of auxiliary basis functions         (NBFAUX) = 222
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 8
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 16
+No. of electrons                                     = 16
+    No. of alpha electrons                           = 8
+    No. of beta electrons                            = 8
+Multiplicity                                         = 1
+
+Geometry
+========
+ C       0.6625035       0.0000000       0.0000000
+ C      -0.6625035       0.0000000       0.0000000
+ H       1.2314886      -0.9211903       0.0000000
+ H       1.2314886       0.9211903       0.0000000
+ H      -1.2314886      -0.9211903       0.0000000
+ H      -1.2314886       0.9211903       0.0000000
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    1.0e+01    4    1.2e+01  -111.80483249   -78.31927407 -10110.80483249   0.016045   6.4e-02   2.6e-04 0.06
+     2      20    1.6e+00    7    4.1e-02  -111.82251824   -78.33695981    -0.01768575   0.012809   5.1e-02   1.4e-04 0.06
+     3      20    1.7e+00    5    2.3e-02  -111.82769163   -78.34213320    -0.00517339   0.015646   6.3e-02   2.0e-04 0.06
+     4      20    1.8e+00    3    5.0e-03  -111.83228105   -78.34672262    -0.00458942   0.011944   4.8e-02   2.2e-04 0.06
+     5      20    1.7e+00    3    3.9e-02  -111.83496657   -78.34940814    -0.00268552   0.013206   5.3e-02   9.8e-05 0.06
+     6      20    1.6e+00    3    5.3e-02  -111.83619267   -78.35063424    -0.00122610   0.012519   5.0e-02   1.0e-04 0.06
+     7      20    1.9e+00    3    3.7e-02  -111.83665674   -78.35109831    -0.00046406   0.011684   4.7e-02   7.0e-05 0.06
+     8      20    1.8e+00    0    6.0e-03  -111.83668466   -78.35112623    -0.00002792   0.011684   4.7e-02   7.0e-05 0.06
+     9      40    3.2e+00    3    4.4e-02  -111.83908232   -78.35352389    -0.00239766   0.001066   4.3e-03   3.0e-05 0.06
+    10      40    3.8e+00    0    3.3e-02  -111.83908820   -78.35352978    -0.00000588   0.001066   4.3e-03   3.0e-05 0.06
+    11      47    5.0e+00    1    4.1e-02  -111.83910213   -78.35354370    -0.00001392   0.000489   2.0e-03   5.7e-05 0.06
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9995555  -11.21830397
+   2    1.9995498  -11.21685919
+   3    1.9799357  -1.03979550
+   4    1.9751845  -0.70785407
+   5    1.9735863  -0.66854809
+   6    1.9713784  -0.59929559
+   7    1.9710239  -0.59592506
+   8    1.9436120  -0.39373332
+   9    0.0563880  -0.04203106
+  10    0.0289761  -0.02692505
+  11    0.0286216  -0.02662208
+  12    0.0264137  -0.02637820
+  13    0.0248155  -0.02543955
+  14    0.0200643  -0.02816132
+  15    0.0004502  -0.00800875
+  16    0.0004445  -0.00790784
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -78.3535437
+ 
+Total Orbital Internal Iterations = 277
+Total Occupation Internal Iterations = 32
+ 
+Elapsed time:   54.26 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     C     5.823       0.177
+  2     C     5.823       0.177
+  3     H     1.088      -0.088
+  4     H     1.089      -0.089
+  5     H     1.088      -0.088
+  6     H     1.089      -0.089
+
+---------------------------------
+   M Diagnostic: 0.06
+---------------------------------
+
