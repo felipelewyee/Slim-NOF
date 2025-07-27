@@ -1,0 +1,85 @@
+INV24-H2O_TS
+/software/eb2024/easybuild/software/common/software/Julia/1.11.3-linux-x86_64/bin/julia
+Job runing on nh039
+Choosing scratch ...
+Automatic scratch folder selection
+/scratch/pobleyef/287227
+/scratch/pobleyef/287227 directory
+cp INV24-H2O_TS.jl INV24-H2O_TS.jld2 to  /scratch/pobleyef/287227/.
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    3.67 Seconds
+
+Number of basis functions                   (NBF)    = 117
+Number of auxiliary basis functions         (NBFAUX) = 113
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 5
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 10
+No. of electrons                                     = 10
+    No. of alpha electrons                           = 5
+    No. of beta electrons                            = 5
+Multiplicity                                         = 1
+
+Geometry
+========
+ O       0.0000013       0.0000529      -0.0000000
+ H       0.9356602       0.0000534       0.0000000
+ H      -0.9356624       0.0000525       0.0000000
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    2.9e+01    4    3.4e+01   -85.51100726   -76.17920552 -10084.51100726   0.288437   1.2e+00   5.4e-05 0.02
+     2      10    3.8e-01    2    6.8e-02   -85.51452603   -76.18272429    -0.00351877   0.218180   8.7e-01   8.7e-05 0.02
+     3      10    1.6e-01    2    1.7e-02   -85.51518759   -76.18338586    -0.00066156   0.175059   7.0e-01   1.9e-04 0.02
+     4      10    9.3e-02    0    9.6e-04   -85.51523766   -76.18343593    -0.00005008   0.175059   7.0e-01   1.9e-04 0.02
+     5      30    7.8e-01    3    1.5e-03   -85.52512916   -76.19332743    -0.00989150   0.000972   3.9e-03   5.0e-05 0.02
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9997233  -20.55891042
+   2    1.9846054  -1.25299422
+   3    1.9774750  -0.87991835
+   4    1.9787667  -0.54962227
+   5    1.9796270  -0.53863149
+   6    0.0203730  -0.02337463
+   7    0.0212333  -0.02465026
+   8    0.0225250  -0.03346694
+   9    0.0153946  -0.02705874
+  10    0.0002767  -0.00878452
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -76.1933274
+ 
+Total Orbital Internal Iterations = 70
+Total Occupation Internal Iterations = 11
+ 
+Elapsed time:   84.00 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     O     7.233       0.767
+  2     H     1.385      -0.385
+  3     H     1.383      -0.383
+
+---------------------------------
+   M Diagnostic: 0.02
+---------------------------------
+
+Recovering execution output...
+Moving from /scratch/pobleyef/287227 to /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/GNOFm20/arina.287227
+mkdir -p /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/GNOFm20/arina.287227
+mv /scratch/pobleyef/287227/* /home-nas/pobleyef/Slim-NOF/ncwo1/Slim05/GNOFm20/arina.287227

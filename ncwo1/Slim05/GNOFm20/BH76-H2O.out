@@ -1,0 +1,86 @@
+BH76-H2O_C.jld2 not found
+BH76-H2O_n.jld2 not found
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    2.94 Seconds
+
+Number of basis functions                   (NBF)    = 117
+Number of auxiliary basis functions         (NBFAUX) = 113
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 5
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 10
+No. of electrons                                     = 10
+    No. of alpha electrons                           = 5
+    No. of beta electrons                            = 5
+Multiplicity                                         = 1
+
+Geometry
+========
+ O       0.0000000       0.0000000       0.3904848
+ H      -0.7567076       0.0000000      -0.1952424
+ H       0.7567076       0.0000000      -0.1952424
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    1.9e+01    5    2.5e+01   -81.71119403   -72.51348441 -10080.71119403   0.586009   2.3e+00   8.5e-05 0.01
+     2      10    1.1e-01    9    1.2e-02   -84.38819677   -75.19048715    -2.67700274   0.242548   9.7e-01   1.5e-04 0.02
+     3      10    1.3e-01    6    7.3e-04   -85.19838534   -76.00067572    -0.81018857   0.198954   8.0e-01   1.3e-04 0.03
+     4      10    2.1e-01    5    2.2e-02   -85.40737057   -76.20966095    -0.20898523   0.221728   8.9e-01   1.7e-05 0.03
+     5      10    3.7e-01    4    8.5e-04   -85.43249331   -76.23478370    -0.02512275   0.224839   9.0e-01   2.7e-05 0.03
+     6      10    2.5e-01    3    4.9e-03   -85.43391830   -76.23620868    -0.00142499   0.215284   8.6e-01   1.3e-04 0.03
+     7      10    2.6e-01    0    3.7e-03   -85.43407185   -76.23636223    -0.00015354   0.215284   8.6e-01   1.3e-04 0.03
+     8      30    3.3e-01    3    2.1e-02   -85.44798855   -76.25027893    -0.01391670   0.004736   1.9e-02   1.4e-04 0.03
+     9      30    3.0e+00    3    1.7e-02   -85.44858636   -76.25087674    -0.00059781   0.002211   8.8e-03   1.5e-04 0.03
+    10      30    3.8e-01    2    1.2e-03   -85.44924463   -76.25153501    -0.00065826   0.003697   1.5e-02   9.1e-05 0.03
+    11      30    1.1e+00    2    7.6e-04   -85.45148918   -76.25377956    -0.00224455   0.002136   8.5e-03   1.4e-04 0.03
+    12      30    4.8e-01    3    3.5e-03   -85.45343087   -76.25572125    -0.00194169   0.001929   7.7e-03   1.5e-04 0.03
+    13      30    4.1e-01    3    3.8e-03   -85.45432870   -76.25661908    -0.00089783   0.002882   1.2e-02   1.3e-04 0.03
+    14      30    6.9e-01    1    1.7e-02   -85.45447549   -76.25676587    -0.00014679   0.003298   1.3e-02   1.9e-04 0.03
+    15      30    5.6e-01    0    3.1e-02   -85.45447900   -76.25676938    -0.00000350   0.003298   1.3e-02   1.9e-04 0.03
+    16      42    1.0e+00    2    7.9e-02   -85.45455036   -76.25684074    -0.00007136   0.000454   1.8e-03   1.8e-04 0.03
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9997959  -20.59238328
+   2    1.9901129  -1.29840482
+   3    1.9710975  -0.71817433
+   4    1.9710859  -0.71806917
+   5    1.9801378  -0.53776120
+   6    0.0198622  -0.02308697
+   7    0.0289141  -0.03577353
+   8    0.0289025  -0.03577047
+   9    0.0098871  -0.02179667
+  10    0.0002041  -0.00679247
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -76.2568407
+ 
+Total Orbital Internal Iterations = 352
+Total Occupation Internal Iterations = 51
+ 
+Elapsed time:   71.51 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     O     7.332       0.668
+  2     H     1.334      -0.334
+  3     H     1.334      -0.334
+
+---------------------------------
+   M Diagnostic: 0.03
+---------------------------------
+

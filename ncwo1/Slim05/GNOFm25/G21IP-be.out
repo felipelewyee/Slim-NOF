@@ -1,0 +1,60 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    2.43 Seconds
+
+Number of basis functions                   (NBF)    = 36
+Number of auxiliary basis functions         (NBFAUX) = 51
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 2
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 4
+No. of electrons                                     = 4
+    No. of alpha electrons                           = 2
+    No. of beta electrons                            = 2
+Multiplicity                                         = 1
+
+Geometry
+========
+Be       0.0000000       0.0000000       0.0000000
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    2.0e+01    2    2.5e+01   -14.60611317   -14.60611317 -10013.60611317   0.003596   1.4e-02   8.9e-06 0.08
+     2      20    3.2e-03    2    2.3e-04   -14.60709957   -14.60709957    -0.00098639   0.000599   2.4e-03   2.4e-05 0.07
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9985734  -4.73558452
+   2    1.9261918  -0.31212062
+   3    0.0738082  -0.02064568
+   4    0.0014266  -0.01052151
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -14.6070996
+ 
+Total Orbital Internal Iterations = 30
+Total Occupation Internal Iterations = 4
+ 
+Elapsed time:   59.46 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1    Be     4.000      -0.000
+
+---------------------------------
+   M Diagnostic: 0.07
+---------------------------------
+
