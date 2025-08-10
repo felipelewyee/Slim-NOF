@@ -32,7 +32,7 @@ import yaml
 import numpy as np
 
 benchmark = "Slim16"
-nof = "GNOFm25"
+nof = "GNOFa20"
 ncwo = "ncwo1"
 path = "../{}/{}/{}/".format(ncwo, benchmark, nof)
 file = open(path + '{}-{}-{}.yaml'.format(benchmark, nof, ncwo), 'r')
@@ -57,5 +57,5 @@ File [0;32m~/anaconda3/envs/jb/lib/python3.13/site-packages/IPython/core/intera
 [1;32m    322[0m     )
 [0;32m--> 324[0m [38;5;28;01mreturn[39;00m [43mio_open[49m[43m([49m[43mfile[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[43margs[49m[43m,[49m[43m [49m[38;5;241;43m*[39;49m[38;5;241;43m*[39;49m[43mkwargs[49m[43m)[49m
 
-[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../ncwo1/Slim16/GNOFm25/Slim16-GNOFm25-ncwo1.yaml'
+[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../ncwo1/Slim16/GNOFa20/Slim16-GNOFa20-ncwo1.yaml'
 
