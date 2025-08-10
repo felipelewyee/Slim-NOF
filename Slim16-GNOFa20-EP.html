@@ -435,6 +435,26 @@
   <section class="tex2jax_ignore mathjax_ignore" id="gnofa20">
 <h1>GNOFa20<a class="headerlink" href="#gnofa20" title="Link to this heading">#</a></h1>
 <div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">TypeError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">from</span><span class="w"> </span><span class="nn">myst_nb</span><span class="w"> </span><span class="kn">import</span> <span class="n">glue</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">MAD_Slim</span> <span class="o">=</span> <span class="n">get_total_MAD_of_whole_set</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">glue</span><span class="p">(</span><span class="s2">&quot;MAD_Slim&quot;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">{:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">MAD_Slim</span><span class="p">),</span> <span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">glue</span><span class="p">(</span><span class="s2">&quot;benchmark&quot;</span><span class="p">,</span> <span class="n">benchmark</span><span class="p">,</span> <span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="nn">Cell In[2], line 6,</span> in <span class="ni">get_total_MAD_of_whole_set</span><span class="nt">(data)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="k">for</span> <span class="n">system</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="nb">set</span><span class="p">]:</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span>     <span class="n">AD</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="nb">set</span><span class="p">][</span><span class="n">system</span><span class="p">][</span><span class="s2">&quot;AD&quot;</span><span class="p">]</span>
+<span class="ne">----&gt; </span><span class="mi">6</span>     <span class="k">if</span><span class="p">(</span><span class="n">AD</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">):</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span>         <span class="n">ADs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="nb">set</span><span class="p">][</span><span class="n">system</span><span class="p">][</span><span class="s2">&quot;AD&quot;</span><span class="p">])</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span>     <span class="k">else</span><span class="p">:</span>
+
+<span class="ne">TypeError</span>: &#39;&lt;&#39; not supported between instances of &#39;str&#39; and &#39;int&#39;
+</pre></div>
+</div>
+</div>
 </div>
 <div class="tip admonition">
 <p class="admonition-title">Mean Absolute Deviation (MAD) of the set</p>
@@ -442,7 +462,7 @@
 <li><p>Computed as the sum of all Absolute Deviations (AD) divided by 100 (the number of reactions on the set).</p></li>
 </ul>
 <hr class="docutils" />
-<p><strong>MAD <span class="output text_plain">‘P30-5’</span></strong> =  kcal/mol</p>
+<p><strong>MAD </strong> =  kcal/mol</p>
 </div>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
@@ -776,7 +796,7 @@ function(Bokeh) {
 <p>The following plot indicates the contribution of each subset to the MAD of the whole set.</p>
 <ul class="simple">
 <li><p>Computed as the sum of the Absolute Deviations of each subset divided by 100.</p></li>
-<li><p>The sum of each bar result in MAD_<span class="output text_plain">’P30-5’</span></p></li>
+<li><p>The sum of each bar result in MAD_</p></li>
 </ul>
 </div>
 <div class="cell tag_remove-input tag_full-width docutils container">
