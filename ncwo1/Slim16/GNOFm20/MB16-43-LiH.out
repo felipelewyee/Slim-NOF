@@ -1,0 +1,78 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    1.52 Seconds
+
+Number of basis functions                   (NBF)    = 65
+Number of auxiliary basis functions         (NBFAUX) = 69
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 2
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 4
+No. of electrons                                     = 4
+    No. of alpha electrons                           = 2
+    No. of beta electrons                            = 2
+Multiplicity                                         = 1
+
+Geometry
+========
+Li       0.0000000       0.0000000      -0.7979820
+ H       0.0000000       0.0000000       0.7979820
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADAM Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    8.9e+00    6    1.1e+01    -8.78775972    -7.79304532 -10007.78775972   0.169378   6.8e-01   1.3e-04 0.01
+     2      10    3.1e-03    2    1.9e-04    -8.90069777    -7.90598336    -0.11293804   0.124496   5.0e-01   9.0e-05 0.01
+     3      10    3.0e-03    2    1.6e-04    -8.96108909    -7.96637469    -0.06039132   0.077275   3.1e-01   9.4e-05 0.01
+     4      10    1.8e-02    1    1.6e-04    -8.99398401    -7.99926961    -0.03289492   0.039332   1.6e-01   6.8e-05 0.01
+     5      10    2.8e-03    1    1.2e-04    -9.00653497    -8.01182057    -0.01255096   0.012223   4.9e-02   1.2e-04 0.01
+     6      10    2.9e-03    1    1.3e-04    -9.00860515    -8.01389074    -0.00207018   0.005453   2.2e-02   9.0e-05 0.01
+     7      10    2.8e-03    2    1.2e-04    -9.00912979    -8.01441538    -0.00052464   0.006453   2.6e-02   3.0e-05 0.01
+     8      10    1.4e-02    2    7.3e-04    -9.00974798    -8.01503358    -0.00061819   0.005964   2.4e-02   6.5e-05 0.01
+     9      10    1.3e-02    2    7.4e-04    -9.01056813    -8.01585373    -0.00082015   0.005597   2.2e-02   1.0e-04 0.01
+    10      10    1.5e-02    3    7.5e-04    -9.01158997    -8.01687557    -0.00102184   0.006319   2.5e-02   5.9e-05 0.02
+    11      10    2.7e-02    3    7.2e-04    -9.01263406    -8.01791966    -0.00104410   0.005735   2.3e-02   3.6e-05 0.02
+    12      10    2.8e-03    2    1.3e-04    -9.01349460    -8.01878019    -0.00086053   0.005906   2.4e-02   1.5e-04 0.02
+    13      10    2.9e-03    2    1.3e-04    -9.01409135    -8.01937694    -0.00059675   0.004462   1.8e-02   1.2e-04 0.03
+    14      10    2.9e-03    2    1.3e-04    -9.01443589    -8.01972149    -0.00034455   0.006076   2.4e-02   8.6e-05 0.03
+    15      10    2.8e-03    2    1.2e-04    -9.01460880    -8.01989440    -0.00017291   0.004682   1.9e-02   4.0e-05 0.03
+    16      10    4.1e-03    1    1.1e-04    -9.01471362    -8.01999921    -0.00010481   0.004301   1.7e-02   1.7e-04 0.03
+    17      10    3.1e-03    0    1.0e-04    -9.01472602    -8.02001162    -0.00001240   0.004301   1.7e-02   1.7e-04 0.03
+    18       6    1.5e-03    1    9.0e-05    -9.01480790    -8.02009350    -0.00008188   0.000451   1.8e-03   7.5e-05 0.03
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9978348  -2.45451401
+   2    1.9686265  -0.31384136
+   3    0.0313735  -0.01541417
+   4    0.0021652  -0.00909465
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =      -8.0200935
+ 
+Total Orbital Internal Iterations = 176
+Total Occupation Internal Iterations = 35
+ 
+Elapsed time:   26.94 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1    Li     2.678       0.322
+  2     H     1.322      -0.322
+
+---------------------------------
+   M Diagnostic: 0.03
+---------------------------------
+

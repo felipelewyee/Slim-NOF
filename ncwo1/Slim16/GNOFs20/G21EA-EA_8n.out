@@ -1,0 +1,64 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    8.56 Seconds
+
+Number of basis functions                   (NBF)    = 87
+Number of auxiliary basis functions         (NBFAUX) = 93
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 3
+No. considered Strongly Singly occupied MOs (NSOC)   = 1
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 7
+No. of electrons                                     = 7
+    No. of alpha electrons                           = 4
+    No. of beta electrons                            = 3
+Multiplicity                                         = 2
+
+Geometry
+========
+ C       0.0000000       0.0000000       0.5614245
+ H       0.0000000       0.0000000      -0.5614245
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    5.2e+01    0    6.7e+01   -41.20683473   -38.37915574 -10040.20683473   0.000474   1.9e-03   1.2e-04 0.06
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9994236  -11.30522076
+   2    1.9446416  -0.65919749
+   3    1.9693483  -0.63881449
+   4    1.0000000  -0.21550687
+   5    0.0306517  -0.02662904
+   6    0.0553584  -0.03362352
+   7    0.0005764  -0.01016216
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -38.3791557
+ 
+Total Orbital Internal Iterations = 10
+Total Occupation Internal Iterations = 0
+ 
+Elapsed time:  152.87 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     C     5.767       0.233
+  2     H     1.233      -0.233
+
+---------------------------------
+   M Diagnostic: 0.06
+---------------------------------
+
