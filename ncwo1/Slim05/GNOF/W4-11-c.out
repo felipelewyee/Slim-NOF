@@ -1,0 +1,61 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    1.55 Seconds
+
+Number of basis functions                   (NBF)    = 57
+Number of auxiliary basis functions         (NBFAUX) = 75
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 2
+No. considered Strongly Singly occupied MOs (NSOC)   = 2
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 6
+No. of electrons                                     = 6
+    No. of alpha electrons                           = 4
+    No. of beta electrons                            = 2
+Multiplicity                                         = 3
+
+Geometry
+========
+ C       0.0000000       0.0000000       0.0000000
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    9.0e+00    0    1.2e+01   -37.75935502   -37.75935502 -10036.75935502   0.000482   1.9e-03   6.8e-05 0.09
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9994079  -11.31475926
+   2    1.9123580  -0.71023926
+   3    1.0000000  -0.22176560
+   4    1.0000000  -0.22176421
+   5    0.0876420  -0.04546551
+   6    0.0005921  -0.01047819
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -37.7593550
+ 
+Total Orbital Internal Iterations = 10
+Total Occupation Internal Iterations = 0
+ 
+Elapsed time:   26.84 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     C     6.000      -0.000
+
+---------------------------------
+   M Diagnostic: 0.09
+---------------------------------
+

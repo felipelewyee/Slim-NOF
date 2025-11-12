@@ -1,0 +1,66 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    1.67 Seconds
+
+Number of basis functions                   (NBF)    = 51
+Number of auxiliary basis functions         (NBFAUX) = 112
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 5
+No. considered Strongly Singly occupied MOs (NSOC)   = 1
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 11
+No. of electrons                                     = 11
+    No. of alpha electrons                           = 6
+    No. of beta electrons                            = 5
+Multiplicity                                         = 2
+
+Geometry
+========
+Mg       0.0000000       0.0000000       0.0000000
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    9.0e+00    2    1.2e+01  -199.49160914  -199.49160914 -10198.49160914   0.000963   3.9e-03   9.3e-05 0.00
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9999444  -49.38230183
+   2    1.9977625  -4.10675327
+   3    1.9970289  -2.62262397
+   4    1.9950280  -2.62121520
+   5    1.9970628  -2.61800395
+   6    1.0000000  -0.27195047
+   7    0.0029372  -0.01472869
+   8    0.0049720  -0.02985976
+   9    0.0029711  -0.01478297
+  10    0.0022375  -0.01369463
+  11    0.0000556  -0.00534997
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =    -199.4916091
+ 
+Total Orbital Internal Iterations = 10
+Total Occupation Internal Iterations = 2
+ 
+Elapsed time:   27.23 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1    Mg    11.000       1.000
+
+---------------------------------
+   M Diagnostic: 0.00
+---------------------------------
+

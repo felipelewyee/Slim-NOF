@@ -1,0 +1,88 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    1.92 Seconds
+
+Number of basis functions                   (NBF)    = 174
+Number of auxiliary basis functions         (NBFAUX) = 186
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 7
+No. considered Strongly Singly occupied MOs (NSOC)   = 0
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 14
+No. of electrons                                     = 14
+    No. of alpha electrons                           = 7
+    No. of beta electrons                            = 7
+Multiplicity                                         = 1
+
+Geometry
+========
+ H       0.0000000       0.0000000       1.6666499
+ C       0.0000000       0.0000000       0.6032500
+ C       0.0000000       0.0000000      -0.6032500
+ H       0.0000000       0.0000000      -1.6666499
+
+Orthonormality violations 84, Maximum Violation 0.000003
+Trying to orthonormalize
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF8/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    9.5e+00    5    1.2e+01  -101.78658525   -77.06902494 -10100.78658525   0.018967   7.6e-02   7.0e-05 0.04
+     2      20    9.4e-01    7    2.0e-02  -101.80322699   -77.08566668    -0.01664174   0.013328   5.3e-02   3.5e-05 0.04
+     3      20    8.8e-01    6    5.0e-02  -101.80873384   -77.09117353    -0.00550685   0.013793   5.5e-02   6.9e-05 0.04
+     4      20    1.1e+00    5    1.7e-02  -101.81294837   -77.09538806    -0.00421452   0.014080   5.6e-02   9.1e-05 0.04
+     5      20    9.7e-01    4    1.7e-02  -101.81653233   -77.09897202    -0.00358396   0.011571   4.6e-02   1.7e-04 0.04
+     6      20    8.8e-01    4    2.4e-02  -101.81829343   -77.10073312    -0.00176110   0.012991   5.2e-02   6.2e-05 0.04
+     7      20    1.2e+00    3    2.2e-02  -101.81921512   -77.10165481    -0.00092169   0.013432   5.4e-02   3.8e-05 0.04
+     8      20    1.3e+00    2    5.6e-02  -101.81942529   -77.10186499    -0.00021017   0.013724   5.5e-02   1.3e-04 0.04
+     9      20    1.9e+00    0    6.5e-03  -101.81943854   -77.10187823    -0.00001325   0.013724   5.5e-02   1.3e-04 0.04
+    10      40    2.4e+00    2    2.6e-02  -101.82067480   -77.10311449    -0.00123625   0.001029   4.1e-03   4.0e-05 0.04
+    11      40    3.2e+00    0    6.2e-02  -101.82067733   -77.10311703    -0.00000254   0.001029   4.1e-03   4.0e-05 0.04
+    12      60    3.8e+00    1    2.0e-02  -101.82068803   -77.10312773    -0.00001070   0.000531   2.1e-03   1.7e-04 0.04
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9995290  -11.22983757
+   2    1.9994503  -11.22697976
+   3    1.9881076  -1.02646080
+   4    1.9763717  -0.73336019
+   5    1.9763180  -0.73228580
+   6    1.9567753  -0.42126989
+   7    1.9568070  -0.42126755
+   8    0.0431930  -0.03610648
+   9    0.0432247  -0.03611302
+  10    0.0236820  -0.02826768
+  11    0.0236283  -0.02823022
+  12    0.0118924  -0.01733553
+  13    0.0005497  -0.00939992
+  14    0.0004710  -0.00822238
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -77.1031277
+ 
+Total Orbital Internal Iterations = 310
+Total Occupation Internal Iterations = 39
+ 
+Elapsed time:   49.99 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     H     1.138      -0.138
+  2     C     5.862       0.138
+  3     C     5.862       0.138
+  4     H     1.138      -0.138
+
+---------------------------------
+   M Diagnostic: 0.04
+---------------------------------
+

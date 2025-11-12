@@ -1,0 +1,62 @@
+Computing Integrals
+Basis Set                                            = def2-qzvp
+Auxiliary Basis Set                                  = def2-universal-jkfit
+Gaussian Type                                        = Spherical
+Elapsed time:    1.63 Seconds
+
+Number of basis functions                   (NBF)    = 57
+Number of auxiliary basis functions         (NBFAUX) = 77
+Inactive Doubly occupied orbitals up to     (NO1)    = 0
+No. considered Strongly Doubly occupied MOs (NDOC)   = 2
+No. considered Strongly Singly occupied MOs (NSOC)   = 3
+NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   = 1
+Dimension of the Nat. Orb. subspace         (NBF5)   = 7
+No. of electrons                                     = 7
+    No. of alpha electrons                           = 5
+    No. of beta electrons                            = 2
+Multiplicity                                         = 4
+
+Geometry
+========
+ N       0.0000000       0.0000000       0.0000000
+
+No violations of the orthonormality
+No violations of the orthonormality
+ 
+PNOF5/ADABelief Calculation
+==================
+ 
+  Nitext  Nit_orb  Time   Nit_occ  Time         Eelec          Etot           Ediff      maxdiff    MaxGrad_orb  Grad_occ
+     1      10    9.1e+00    0    1.2e+01   -54.41464325   -54.41464325 -10053.41464325   0.000657   2.6e-03   5.5e-05 0.00
+ 
+RESULTS OF THE OCCUPATION OPTIMIZATION
+========================================
+   1    1.9996340  -14.81779144
+   2    1.9997804  -1.76780950
+   3    1.0000000  -0.28384189
+   4    1.0000000  -0.28381532
+   5    1.0000000  -0.28375578
+   6    0.0002196  -0.00054425
+   7    0.0003660  -0.00934217
+ 
+----------------
+ Final Energies 
+----------------
+Final NOF Total Energy =     -54.4146433
+ 
+Total Orbital Internal Iterations = 10
+Total Occupation Internal Iterations = 0
+ 
+Elapsed time:   26.94 Seconds
+
+---------------------------------
+   Lowdin Population Analysis    
+---------------------------------
+ Idx  Atom   Population   Charge 
+---------------------------------
+  1     N     7.000       0.000
+
+---------------------------------
+   M Diagnostic: 0.00
+---------------------------------
+
