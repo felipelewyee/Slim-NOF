@@ -1,0 +1,834 @@
+Job runing on na21
+Choosing scratch ...
+Automatic scratch folder selection
+/scratch/pobleyef/349722
+/scratch/pobleyef/349722 directory
+cp HEAVY28-bih3.gcf HEAVY28-bih3.inp to  /scratch/pobleyef/349722/.
+HEAVY28-bih3
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+ This is the OpenMP version of the code
+
+ The execution started at 10h 22min on the 11/ 7/2025
+
+    ===========================================================
+    !                                                         !
+    !                        Do N O F                         !
+    !                                                         !
+    !  (Donostia Natural Orbital Functional Software Program) !
+    !                                                         !
+    !               COPYRIGHT by Mario Piris                  !
+    !                                                         !
+    !      Donostia International Physics Center (DIPC)       !
+    !       University of the Basque Country (UPV/EHU)        !
+    !       Basque Foundation for Science (IKERBASQUE)        !
+    !                                                         !
+    !          GNU General Public License version 3           !
+    !                                                         !
+    !                  VERSION: October 2025                  !
+    !                                                         !
+    ===========================================================
+
+ Run Title
+ ---------
+  Molname                                                                        
+
+ Basis Set
+ ---------
+ /home/pobleyef/DoNOFsw/basis/def2-QZVP.bas                                      
+
+ Atom      Charge                Coordinates (Bohr)
+                           x             y             z
+ BI         83.0        0.0000        1.4460        0.0000
+ H           1.0        2.7145       -0.4820        0.0000
+ H           1.0       -1.3573       -0.4820        2.3508
+ H           1.0       -1.3573       -0.4820       -2.3508
+
+ Atomic Basis Set
+ ----------------
+ The contracted primitive functions were unnormalized
+ The contracted basis functions are now normalized to unity
+
+  Shell Type  Primitive         Exponent  Contraction Coefficient
+
+ BI        
+
+      1   S       1          8131.0900000    0.000071272491
+      1   S       2          1225.7700000    0.000491534422
+      1   S       3           274.6720000    0.001681047724
+      1   S       4            37.6164000    0.049689214733
+      1   S       5            23.4804000   -0.391571066701
+      1   S       6            14.1065000    1.503421929557
+      1   S       7             8.8130500   -1.338578488080
+      1   S       8             5.5077800   -1.565252044517
+      1   S       9             2.0397700    1.896580652442
+
+      2   S      10            13.6142845    0.353370847250
+      2   S      11            11.0108818   -0.607520655341
+      2   S      12             2.2630090    1.173430725347
+
+      3   S      13             1.0975227    1.000000000000
+
+      4   S      14             0.5234445    1.000000000000
+
+      5   S      15             0.2673441    1.000000000000
+
+      6   S      16             0.1283661    1.000000000000
+
+      7   S      17             0.0600977    1.000000000000
+
+      8   P      18            99.5914000    0.000399211808
+      8   P      19            19.8964000   -0.023048136078
+      8   P      20            12.4376000    0.202428077813
+      8   P      21             7.7740000   -0.437928430983
+      8   P      22             4.8399500   -0.063760817779
+      8   P      23             2.2547800    0.610221786224
+      8   P      24             1.1804900    0.601499123591
+
+      9   P      25             9.6213215   -0.058623300736
+      9   P      26             4.1321351    0.295830548167
+      9   P      27             1.2785828    0.806726143951
+
+     10   P      28             0.5942360    1.000000000000
+
+     11   P      29             0.2579417    1.000000000000
+
+     12   P      30             0.1127360    1.000000000000
+
+     13   P      31             0.0477920    1.000000000000
+
+     14   D      32            69.6327992    0.000430975016
+     14   D      33            14.8886150    0.010030864746
+     14   D      34             6.5949629   -0.103152960833
+     14   D      35             4.1796108    0.034465181552
+     14   D      36             2.5697950    0.248366675156
+     14   D      37             1.5601365    0.413338685568
+     14   D      38             0.8921053    0.425728150361
+
+     15   D      39             0.4809373    1.000000000000
+
+     16   D      40             0.2423362    1.000000000000
+
+     17   D      41             0.1044000    1.000000000000
+
+     18   F      42             2.7210175    1.000000000000
+
+     19   F      43             1.2625600    1.000000000000
+
+     20   F      44             0.4803000    1.000000000000
+
+     21   F      45             0.2006000    1.000000000000
+
+     22   G      46             0.4203000    1.000000000000
+
+ H         
+
+     23   S      47           190.6916900    0.005342636962
+     23   S      48            28.6055320    0.041252338243
+     23   S      49             6.5095943    0.210993525698
+     23   S      50             1.8412455    0.812128545862
+
+     24   S      51             0.5985373    1.000000000000
+
+     25   S      52             0.2139762    1.000000000000
+
+     26   S      53             0.0803163    1.000000000000
+
+     27   P      54             2.2920000    1.000000000000
+
+     28   P      55             0.8380000    1.000000000000
+
+     29   P      56             0.2920000    1.000000000000
+
+     30   D      57             2.0620000    1.000000000000
+
+     31   D      58             0.6620000    1.000000000000
+
+     32   F      59             1.3970000    1.000000000000
+
+ H         
+
+     33   S      60           190.6916900    0.005342636962
+     33   S      61            28.6055320    0.041252338243
+     33   S      62             6.5095943    0.210993525698
+     33   S      63             1.8412455    0.812128545862
+
+     34   S      64             0.5985373    1.000000000000
+
+     35   S      65             0.2139762    1.000000000000
+
+     36   S      66             0.0803163    1.000000000000
+
+     37   P      67             2.2920000    1.000000000000
+
+     38   P      68             0.8380000    1.000000000000
+
+     39   P      69             0.2920000    1.000000000000
+
+     40   D      70             2.0620000    1.000000000000
+
+     41   D      71             0.6620000    1.000000000000
+
+     42   F      72             1.3970000    1.000000000000
+
+ H         
+
+     43   S      73           190.6916900    0.005342636962
+     43   S      74            28.6055320    0.041252338243
+     43   S      75             6.5095943    0.210993525698
+     43   S      76             1.8412455    0.812128545862
+
+     44   S      77             0.5985373    1.000000000000
+
+     45   S      78             0.2139762    1.000000000000
+
+     46   S      79             0.0803163    1.000000000000
+
+     47   P      80             2.2920000    1.000000000000
+
+     48   P      81             0.8380000    1.000000000000
+
+     49   P      82             0.2920000    1.000000000000
+
+     50   D      83             2.0620000    1.000000000000
+
+     51   D      84             0.6620000    1.000000000000
+
+     52   F      85             1.3970000    1.000000000000
+
+ Total Number of Basis Set Shells             =   52
+ Total Number of Primitives                   =   85
+ Number of Spherical Gaussian Basis Functions =  172
+ Total Number of Auxiliary Basis Set Shells   =   71
+ Number of Sph. Gaussian Auxiliary Set Func.  =  305
+ Number of Electrons                          =   86
+ Charge of Molecule                           =    0
+ Spin Multiplicity                            =    1
+ Number of Occupied Orbitals (Alpha)          =   43
+ Number of Occupied Orbitals (Beta )          =   43
+ Total Number of Atoms                        =    4
+
+ Nuclear Energy =       75.4227459649
+
+ Note: This calculation is using an effective core potential
+ so NE and ENUC will be adjusted later after removal of the Core
+
+ Input Run Options
+ -----------------
+ IRUNTYP = 1  MULT = 1  ICHARG =  0 IECP = 1  IEMOM = 1  UNITS = ANGS    
+
+ ECP Potentials
+ --------------
+ Parameters for "BI-ECP  " on Atom  1 with ZCORE 60 and LMAX 3 are
+
+ for L= 3      COEFF    N           ZETA
+    1       13.71338    2        4.21455
+    1       18.19431    2        4.13340
+ for L= 0      COEFF    N           ZETA
+    1      283.26423    2       13.04309
+    1       62.47196    2        8.22168
+    1      -13.71338    2        4.21455
+    1      -18.19431    2        4.13340
+ for L= 1      COEFF    N           ZETA
+    1       72.00150    2       10.46778
+    1      144.00228    2        9.11890
+    1        5.00795    2        6.75479
+    1        9.99155    2        6.25259
+    1      -13.71338    2        4.21455
+    1      -18.19431    2        4.13340
+ for L= 2      COEFF    N           ZETA
+    1       36.39626    2        8.08147
+    1       54.59766    2        7.89060
+    1        9.98429    2        4.95556
+    1       14.98148    2        4.70456
+    1      -13.71338    2        4.21455
+    1      -18.19431    2        4.13340
+
+ The ECP removes  60 core electrons and  60 protons
+
+ Number of electrons kept in the run =   26
+ Number of occupied orbitals (Alpha) =   13
+ Number of occupied orbitals (Beta)  =   13
+
+ Adjusted Nuclear Energy =       21.3615357046
+
+
+ Integral Options
+ ----------------
+ ERITYP = RI     AUX = JKFIT
+
+ Input NOF Options
+ -----------------
+
+ Natural Orbital Functional Selected:    (IPNOF)         8
+ Scaled version of GNOF (GNOFs):         (Imod)          2
+
+ Type of calculation = ICOEF2 + ICOEF1:  (ICOEF)        21
+ Use Softmax function for Occ. Opt.:     (ISOFTMAX)      1
+ Type of Orb. Opt. = Orbital Rotations:  (IORBOPT)       2
+ Maximum Number of Coef Outer Iter.:     (MAXIT21)       3
+ Maximum Number of Occ-Coef Outer Iter.: (MAXIT)      1000
+
+ Restart calculation Option:             (RESTART)       F
+ Restart Gamma Matrix from GCF file:     (INPUTGAMMA)    1
+ Coefficient Matrix from GCF file:       (INPUTC)        1
+ Diagonal Elements FMIUG from GCF file:  (INPUTFMIUG)    0
+ Cartesian Coordinates from GCF file:    (INPUTCXYZ)     0
+
+ Threshold Lambda Convergence=10**(-N):  (NTHRESHL)      3
+ Threshold Energy Convergence=10**(-N):  (NTHRESHE)      5
+ Max. Number of Inner Coef. Iterations:  (MAXLOOP)      10
+ Orthogonalize the initial Orbitals:     (ORTHO)         T
+
+ Output Option:                          (NPRINT)        0
+ Output the Coefficient Matrix:          (IWRITEC)       0
+ Do a Mulliken Population Analysis:      (IMULPOP)       0
+ Write Information into a WFN file:      (IAIMPAC)       1
+ Write Information into a FCHK file:     (IFCHK)         1
+ Write Information into a MLP file:      (MOLDEN)        1
+ Create Ini. Cond. (ini.xyz) file:       (INICOND)       1
+ Calculate IPs using Ext. Koopmans Theo: (IEKT)          0
+ Write APSG expansion coefficient file:  (APSG)          F
+ Output option for Lagrange Multipliers: (PRINTLAG)      F
+ Diagonalize matrix of Lag. Multipliers: (DIAGLAG)       F
+
+------------------------------------------------------------------------
+
+ Orbital Space
+ -------------
+
+ Inactive Doubly occupied orbitals up to NO1  =    0
+ No. considered Strongly Doubly occupied MOs  =   13
+ No. considered Strongly Singly occupied MOs  =    0
+ No. of Weakly occ. per St. Doubly occ.  MOs  =   12
+ Dimension of the Active Nat. Orb. subspace   =  169
+ Secondary Empty orbitals                     =    3
+
+ 1e- integrals
+ -------------
+ Time to do integrals =      0.25
+
+ 2e- integrals
+ -------------
+ DONTW option skips storage 2e- integrals on Unit 1
+ Time to do integrals =      0.21
+
+ No violations of the orthonormality
+
+   INITIAL VALUES
+  =================
+
+   OM     Occupation      Elag Diag
+
+    1      1.9999670     -6.6950793
+    2      1.9999207     -4.2814118
+    3      1.9998690     -4.2818905
+    4      1.9998558     -4.2777752
+    5      1.9989093     -1.3421571
+    6      1.9988482     -1.3357780
+    7      1.9936292     -1.2998990
+    8      1.9927861     -1.3086795
+    9      1.9808916     -1.0109615
+   10      1.9795999     -0.8512504
+   11      1.9692142     -0.7660552
+   12      1.9644967     -0.4596134
+   13      1.9601792     -0.4126649
+   14      0.0000007     -0.0000015
+   15      0.0051746     -0.0109723
+   16      0.0042517     -0.0105448
+   17      0.0000068     -0.0000166
+   18      0.0123213     -0.0287062
+   19      0.0000267     -0.0000704
+   20      0.0002836     -0.0008377
+   21      0.0000469     -0.0001026
+   22      0.0005520     -0.0011652
+   23      0.0000011     -0.0000039
+   24      0.0000055     -0.0000443
+   25      0.0000080     -0.0000219
+   26      0.0000049     -0.0000131
+   27      0.0005058     -0.0009830
+   28      0.0000550     -0.0001282
+   29      0.0085827     -0.0235011
+   30      0.0004075     -0.0008325
+   31      0.0007639     -0.0019695
+   32      0.0042926     -0.0083524
+   33      0.0000256     -0.0000658
+   34      0.0000841     -0.0001778
+   35      0.0001078     -0.0001931
+   36      0.0000003     -0.0000005
+   37      0.0000004     -0.0000011
+   38      0.0000068     -0.0000424
+   39      0.0000055     -0.0000257
+   40      0.0000017     -0.0000042
+   41      0.0000006     -0.0000021
+   42      0.0002123     -0.0005357
+   43      0.0000959     -0.0002070
+   44      0.0001309     -0.0003557
+   45      0.0000476     -0.0001201
+   46      0.0000382     -0.0000935
+   47      0.0000605     -0.0001168
+   48      0.0000071     -0.0000253
+   49      0.0000284     -0.0000614
+   50      0.0000019     -0.0000072
+   51      0.0000060     -0.0000461
+   52      0.0000065     -0.0000603
+   53      0.0100005     -0.0172818
+   54      0.0098057     -0.0185565
+   55      0.0001782     -0.0004647
+   56      0.0002852     -0.0005603
+   57      0.0011552     -0.0028462
+   58      0.0015573     -0.0039770
+   59      0.0011332     -0.0030797
+   60      0.0000408     -0.0000790
+   61      0.0000023     -0.0000092
+   62      0.0000123     -0.0000316
+   63      0.0000020     -0.0000072
+   64      0.0000064     -0.0000464
+   65      0.0000037     -0.0000096
+   66      0.0000315     -0.0000657
+   67      0.0000011     -0.0000027
+   68      0.0000138     -0.0000392
+   69      0.0008864     -0.0019400
+   70      0.0003637     -0.0008121
+   71      0.0000800     -0.0001992
+   72      0.0002586     -0.0007757
+   73      0.0000211     -0.0000452
+   74      0.0000004     -0.0000008
+   75      0.0000047     -0.0000298
+   76      0.0000007     -0.0000019
+   77      0.0000011     -0.0000025
+   78      0.0000002      0.0000003
+   79      0.0119258     -0.0193961
+   80      0.0038647     -0.0085364
+   81      0.0085313     -0.0235145
+   82      0.0028130     -0.0052945
+   83      0.0000598     -0.0001436
+   84      0.0002024     -0.0005916
+   85      0.0000724     -0.0001672
+   86      0.0001369     -0.0002869
+   87      0.0000531     -0.0001074
+   88      0.0000160     -0.0000408
+   89      0.0000036     -0.0000146
+   90      0.0000185     -0.0000239
+   91      0.0000012     -0.0000022
+   92      0.0059154     -0.0107220
+   93      0.0000039     -0.0000106
+   94      0.0000623     -0.0001705
+   95      0.0017265     -0.0034717
+   96      0.0001752     -0.0004522
+   97      0.0000194     -0.0000509
+   98      0.0003902     -0.0009461
+   99      0.0000252     -0.0000506
+  100      0.0000030     -0.0000123
+  101      0.0000003     -0.0000007
+  102      0.0000003     -0.0000007
+  103      0.0000007     -0.0000012
+  104      0.0000071     -0.0000511
+  105      0.0010176     -0.0018485
+  106      0.0001427     -0.0003436
+  107      0.0000004     -0.0000012
+  108      0.0002847     -0.0005788
+  109      0.0000144     -0.0000383
+  110      0.0003216     -0.0007603
+  111      0.0001738     -0.0005074
+  112      0.0002052     -0.0005469
+  113      0.0003413     -0.0008105
+  114      0.0000779     -0.0002842
+  115      0.0000768     -0.0002281
+  116      0.0000019     -0.0000053
+  117      0.0000008     -0.0000012
+  118      0.0058206     -0.0106971
+  119      0.0002022     -0.0004704
+  120      0.0085850     -0.0235891
+  121      0.0002822     -0.0005525
+  122      0.0016202     -0.0036492
+  123      0.0000597     -0.0001498
+  124      0.0008534     -0.0024852
+  125      0.0001572     -0.0003237
+  126      0.0000191     -0.0000417
+  127      0.0000003     -0.0000005
+  128      0.0000004     -0.0000012
+  129      0.0000249     -0.0000263
+  130      0.0000004     -0.0000007
+  131      0.0045949     -0.0088958
+  132      0.0005140     -0.0011300
+  133      0.0003393     -0.0008755
+  134      0.0000167     -0.0000402
+  135      0.0012306     -0.0029938
+  136      0.0005428     -0.0015926
+  137      0.0024669     -0.0050786
+  138      0.0000783     -0.0001645
+  139      0.0000034     -0.0000138
+  140      0.0000025     -0.0000098
+  141      0.0000004     -0.0000007
+  142      0.0000025     -0.0000068
+  143      0.0000001     -0.0000011
+  144      0.0000060     -0.0000135
+  145      0.0077562     -0.0195943
+  146      0.0000279     -0.0000779
+  147      0.0135706     -0.0282393
+  148      0.0010284     -0.0027460
+  149      0.0000551     -0.0001435
+  150      0.0006182     -0.0018146
+  151      0.0002412     -0.0005751
+  152      0.0000008     -0.0000024
+  153      0.0000003     -0.0000007
+  154      0.0000002      0.0000003
+  155      0.0000015     -0.0000040
+  156      0.0000020     -0.0000046
+  157      0.0000002     -0.0000003
+  158      0.0079826     -0.0195601
+  159      0.0000009     -0.0000034
+  160      0.0000247     -0.0000552
+  161      0.0002447     -0.0005310
+  162      0.0000088     -0.0000239
+  163      0.0000568     -0.0001369
+  164      0.0000543     -0.0001050
+  165      0.0000005     -0.0000011
+  166      0.0000001     -0.0000023
+  167      0.0000390     -0.0000795
+  168      0.0000009     -0.0000020
+  169      0.0000005     -0.0000009
+
+   RO Sum (  26) =   26.00
+
+  ---------------
+   Dipole Moment
+  ---------------
+
+      0.9691 Debye [   0.3813  (   0.0022,   0.3812,  -0.0052) ]
+
+
+  RESULTS OF OCCUPATION-COEFFICIENT OPTIMIZATION
+ ================================================
+
+  Ex It  Occ Time  Orb Time  Orb It   Electronic Energy     Total Energy   Energy Convergency    Max Mul-Lag Diff
+
+    1    2.3E-01   1.5E+00       0    -237.2618676365     -215.9003319319     0.0000000000           0.000924
+
+   OM     Occupation      Elag Diag
+
+    1      1.9999670     -6.6950793
+    2      1.9999207     -4.2814118
+    3      1.9998690     -4.2818905
+    4      1.9998558     -4.2777752
+    5      1.9989093     -1.3421571
+    6      1.9988482     -1.3357780
+    7      1.9936292     -1.2998990
+    8      1.9927861     -1.3086795
+    9      1.9808916     -1.0109615
+   10      1.9795999     -0.8512504
+   11      1.9692142     -0.7660552
+   12      1.9644967     -0.4596134
+   13      1.9601792     -0.4126649
+   14      0.0000007     -0.0000015
+   15      0.0051746     -0.0109723
+   16      0.0042517     -0.0105448
+   17      0.0000068     -0.0000166
+   18      0.0123213     -0.0287062
+   19      0.0000267     -0.0000704
+   20      0.0002836     -0.0008377
+   21      0.0000469     -0.0001026
+   22      0.0005520     -0.0011652
+   23      0.0000011     -0.0000039
+   24      0.0000055     -0.0000443
+   25      0.0000080     -0.0000219
+   26      0.0000049     -0.0000131
+   27      0.0005058     -0.0009830
+   28      0.0000550     -0.0001282
+   29      0.0085827     -0.0235011
+   30      0.0004075     -0.0008325
+   31      0.0007639     -0.0019695
+   32      0.0042926     -0.0083524
+   33      0.0000256     -0.0000658
+   34      0.0000841     -0.0001778
+   35      0.0001078     -0.0001931
+   36      0.0000003     -0.0000005
+   37      0.0000004     -0.0000011
+   38      0.0000068     -0.0000424
+   39      0.0000055     -0.0000257
+   40      0.0000017     -0.0000042
+   41      0.0000006     -0.0000021
+   42      0.0002123     -0.0005357
+   43      0.0000959     -0.0002070
+   44      0.0001309     -0.0003557
+   45      0.0000476     -0.0001201
+   46      0.0000382     -0.0000935
+   47      0.0000605     -0.0001168
+   48      0.0000071     -0.0000253
+   49      0.0000284     -0.0000614
+   50      0.0000019     -0.0000072
+   51      0.0000060     -0.0000461
+   52      0.0000065     -0.0000603
+   53      0.0100005     -0.0172818
+   54      0.0098057     -0.0185565
+   55      0.0001782     -0.0004647
+   56      0.0002852     -0.0005603
+   57      0.0011552     -0.0028462
+   58      0.0015573     -0.0039770
+   59      0.0011332     -0.0030797
+   60      0.0000408     -0.0000790
+   61      0.0000023     -0.0000092
+   62      0.0000123     -0.0000316
+   63      0.0000020     -0.0000072
+   64      0.0000064     -0.0000464
+   65      0.0000037     -0.0000096
+   66      0.0000315     -0.0000657
+   67      0.0000011     -0.0000027
+   68      0.0000138     -0.0000392
+   69      0.0008864     -0.0019400
+   70      0.0003637     -0.0008121
+   71      0.0000800     -0.0001992
+   72      0.0002586     -0.0007757
+   73      0.0000211     -0.0000452
+   74      0.0000004     -0.0000008
+   75      0.0000047     -0.0000298
+   76      0.0000007     -0.0000019
+   77      0.0000011     -0.0000025
+   78      0.0000002      0.0000003
+   79      0.0119258     -0.0193961
+   80      0.0038647     -0.0085364
+   81      0.0085313     -0.0235145
+   82      0.0028130     -0.0052945
+   83      0.0000598     -0.0001436
+   84      0.0002024     -0.0005916
+   85      0.0000724     -0.0001672
+   86      0.0001369     -0.0002869
+   87      0.0000531     -0.0001074
+   88      0.0000160     -0.0000408
+   89      0.0000036     -0.0000146
+   90      0.0000185     -0.0000239
+   91      0.0000012     -0.0000022
+   92      0.0059154     -0.0107220
+   93      0.0000039     -0.0000106
+   94      0.0000623     -0.0001705
+   95      0.0017265     -0.0034717
+   96      0.0001752     -0.0004522
+   97      0.0000194     -0.0000509
+   98      0.0003902     -0.0009461
+   99      0.0000252     -0.0000506
+  100      0.0000030     -0.0000123
+  101      0.0000003     -0.0000007
+  102      0.0000003     -0.0000007
+  103      0.0000007     -0.0000012
+  104      0.0000071     -0.0000511
+  105      0.0010176     -0.0018485
+  106      0.0001427     -0.0003436
+  107      0.0000004     -0.0000012
+  108      0.0002847     -0.0005788
+  109      0.0000144     -0.0000383
+  110      0.0003216     -0.0007603
+  111      0.0001738     -0.0005074
+  112      0.0002052     -0.0005469
+  113      0.0003413     -0.0008105
+  114      0.0000779     -0.0002842
+  115      0.0000768     -0.0002281
+  116      0.0000019     -0.0000053
+  117      0.0000008     -0.0000012
+  118      0.0058206     -0.0106971
+  119      0.0002022     -0.0004704
+  120      0.0085850     -0.0235891
+  121      0.0002822     -0.0005525
+  122      0.0016202     -0.0036492
+  123      0.0000597     -0.0001498
+  124      0.0008534     -0.0024852
+  125      0.0001572     -0.0003237
+  126      0.0000191     -0.0000417
+  127      0.0000003     -0.0000005
+  128      0.0000004     -0.0000012
+  129      0.0000249     -0.0000263
+  130      0.0000004     -0.0000007
+  131      0.0045949     -0.0088958
+  132      0.0005140     -0.0011300
+  133      0.0003393     -0.0008755
+  134      0.0000167     -0.0000402
+  135      0.0012306     -0.0029938
+  136      0.0005428     -0.0015926
+  137      0.0024669     -0.0050786
+  138      0.0000783     -0.0001645
+  139      0.0000034     -0.0000138
+  140      0.0000025     -0.0000098
+  141      0.0000004     -0.0000007
+  142      0.0000025     -0.0000068
+  143      0.0000001     -0.0000011
+  144      0.0000060     -0.0000135
+  145      0.0077562     -0.0195943
+  146      0.0000279     -0.0000779
+  147      0.0135706     -0.0282393
+  148      0.0010284     -0.0027460
+  149      0.0000551     -0.0001435
+  150      0.0006182     -0.0018146
+  151      0.0002412     -0.0005751
+  152      0.0000008     -0.0000024
+  153      0.0000003     -0.0000007
+  154      0.0000002      0.0000003
+  155      0.0000015     -0.0000040
+  156      0.0000020     -0.0000046
+  157      0.0000002     -0.0000003
+  158      0.0079826     -0.0195601
+  159      0.0000009     -0.0000034
+  160      0.0000247     -0.0000552
+  161      0.0002447     -0.0005310
+  162      0.0000088     -0.0000239
+  163      0.0000568     -0.0001369
+  164      0.0000543     -0.0001050
+  165      0.0000005     -0.0000011
+  166      0.0000001     -0.0000023
+  167      0.0000390     -0.0000795
+  168      0.0000009     -0.0000020
+  169      0.0000005     -0.0000009
+
+   RO Sum (  26) =   26.00
+
+  ---------------
+   Dipole Moment
+  ---------------
+
+      0.9691 Debye [   0.3813  (   0.0022,   0.3812,  -0.0052) ]
+
+ ----------------
+  Final Energies  
+ ----------------
+
+  Final NOF Total Energy =     -215.9003319319 ( 9.E-04 , 0.E+00 )
+
+
+  **************************************************
+  *                                                *
+  *       SINGLE-POINT DoNOF CALCULATION           *
+  *                                                *
+  *             FULL OPTIMIZATION                  *
+  *                                                *
+  *  FINAL RESULTS   FINAL RESULTS  FINAL RESULTS  *
+  *                                                *
+  **************************************************
+
+  **************************************************
+  *         No. EXTERNAL ITER =     1              *
+  *         No. of TOTAL ITER =     0              *
+  **************************************************
+
+  Elapsed real time :      2.37  (Seconds)
+
+ The execution finished at 10h 22min on the 11/ 7/2025
+Recovering execution output...
+Moving from /scratch/pobleyef/349722 to /home-nas/pobleyef/Slim-NOF/ncwomax/Slim16/GNOFs20/arina.349722
+mkdir -p /home-nas/pobleyef/Slim-NOF/ncwomax/Slim16/GNOFs20/arina.349722
+mv /scratch/pobleyef/349722/* /home-nas/pobleyef/Slim-NOF/ncwomax/Slim16/GNOFs20/arina.349722
