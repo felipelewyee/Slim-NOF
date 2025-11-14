@@ -1,9 +1,9 @@
-Job runing on na20
+Job runing on na14
 Choosing scratch ...
 Automatic scratch folder selection
-/scratch/pobleyef/345651
-/scratch/pobleyef/345651 directory
-cp HEAVY28-teh2_nh3.gcf HEAVY28-teh2_nh3.inp to  /scratch/pobleyef/345651/.
+/scratch/pobleyef/356004
+/scratch/pobleyef/356004 directory
+cp HEAVY28-teh2_nh3.gcf HEAVY28-teh2_nh3.inp to  /scratch/pobleyef/356004/.
 HEAVY28-teh2_nh3
  This is the OpenMP version of the code
  This is the OpenMP version of the code
@@ -85,48 +85,8 @@ HEAVY28-teh2_nh3
  This is the OpenMP version of the code
  This is the OpenMP version of the code
  This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
- This is the OpenMP version of the code
 
- The execution started at 13h 48min on the 11/ 4/2025
+ The execution started at 17h 56min on the 11/13/2025
 
     ===========================================================
     !                                                         !
@@ -159,7 +119,7 @@ HEAVY28-teh2_nh3
  TE         52.0       -0.5254       -3.4422        0.0000
  H           1.0        0.4123       -6.4036        0.0000
  H           1.0        2.4123       -2.5199        0.0000
- N           1.0       -0.5254        2.5582        0.0000
+ N           7.0       -0.5254        2.5582        0.0000
  H           1.0        0.2898        3.3489        1.5349
  H           1.0        0.2898        3.3489       -1.5349
  H           1.0       -2.3535        3.1096        0.0000
@@ -420,14 +380,14 @@ HEAVY28-teh2_nh3
  Number of Spherical Gaussian Basis Functions =  289
  Total Number of Auxiliary Basis Set Shells   =  101
  Number of Sph. Gaussian Auxiliary Set Func.  =  385
- Number of Electrons                          =   58
+ Number of Electrons                          =   64
  Charge of Molecule                           =    0
  Spin Multiplicity                            =    1
- Number of Occupied Orbitals (Alpha)          =   29
- Number of Occupied Orbitals (Beta )          =   29
+ Number of Occupied Orbitals (Alpha)          =   32
+ Number of Occupied Orbitals (Beta )          =   32
  Total Number of Atoms                        =    7
 
- Nuclear Energy =       68.5847733190
+ Nuclear Energy =      131.6971313308
 
  Note: This calculation is using an effective core potential
  so NE and ENUC will be adjusted later after removal of the Core
@@ -465,11 +425,11 @@ HEAVY28-teh2_nh3
 
  The ECP removes  28 core electrons and  28 protons
 
- Number of electrons kept in the run =   30
- Number of occupied orbitals (Alpha) =   15
- Number of occupied orbitals (Beta)  =   15
+ Number of electrons kept in the run =   36
+ Number of occupied orbitals (Alpha) =   18
+ Number of occupied orbitals (Beta)  =   18
 
- Adjusted Nuclear Energy =       33.7059612522
+ Adjusted Nuclear Energy =       68.8200256227
 
 
  Integral Options
@@ -519,11 +479,11 @@ HEAVY28-teh2_nh3
  You are doing a perfect pairing calculation: NCWO=1
 
  Inactive Doubly occupied orbitals up to NO1  =    0
- No. considered Strongly Doubly occupied MOs  =   15
+ No. considered Strongly Doubly occupied MOs  =   18
  No. considered Strongly Singly occupied MOs  =    0
  NO. of Weakly occ. per St. Doubly occ.  MOs (NCWO)   =    1
- Dimension of the Active Nat. Orb. subspace   =   30
- Secondary Empty orbitals                     =  259
+ Dimension of the Active Nat. Orb. subspace   =   36
+ Secondary Empty orbitals                     =  253
 
  1e- integrals
  -------------
@@ -532,7 +492,7 @@ HEAVY28-teh2_nh3
  2e- integrals
  -------------
  DONTW option skips storage 2e- integrals on Unit 1
- Time to do integrals =      0.53
+ Time to do integrals =      0.70
 
  No violations of the orthonormality
 
@@ -541,44 +501,50 @@ HEAVY28-teh2_nh3
 
    OM     Occupation      Elag Diag
 
-    1      1.9985121     -0.8075618
-    2      1.9993871     -0.2746955
-    3      1.9999204     -0.4812260
-    4      1.9999996     -5.0873621
-    5      1.9999909     -1.8183417
-    6      1.9999960     -1.6531061
-    7      1.9942364     -0.3287353
-    8      1.9999711     -1.7674912
-    9      1.9999970     -5.0887647
-   10      1.9999995     -5.0889571
-   11      2.0000000     -7.1220441
-   12      1.9999969     -1.7565052
-   13      1.9999992     -1.7892516
-   14      1.9999986     -0.4792321
-   15      1.9999993     -1.7016014
-   16      0.0000007     -0.0000040
-   17      0.0000014     -0.0000052
-   18      0.0000008     -0.0000053
-   19      0.0000031     -0.0000172
-   20      0.0000000     -0.0000001
-   21      0.0000005     -0.0000054
-   22      0.0000030     -0.0000181
-   23      0.0000289     -0.0001208
-   24      0.0057636     -0.0123259
-   25      0.0000040     -0.0000216
-   26      0.0000091     -0.0000399
-   27      0.0000004     -0.0000045
-   28      0.0000796     -0.0002159
-   29      0.0006129     -0.0011088
-   30      0.0014879     -0.0033528
+    1      2.0000000    -15.5388340
+    2      1.9999993     -7.0964053
+    3      1.9999998     -5.0668752
+    4      1.9999965     -5.0573772
+    5      1.9999972     -5.0631365
+    6      1.9994236     -1.5409307
+    7      1.9999974     -1.3998307
+    8      1.9999988     -1.8369718
+    9      1.9999703     -1.8396094
+   10      1.9998261     -1.6779808
+   11      1.9999983     -1.6422135
+   12      2.0000000     -1.5906559
+   13      1.9997009     -0.6168321
+   14      1.9958617     -0.5965003
+   15      1.9845447     -0.5593254
+   16      1.9998454     -0.4530457
+   17      1.9999971     -0.4557912
+   18      1.9999986     -0.3050728
+   19      0.0000014     -0.0000048
+   20      0.0000029     -0.0000109
+   21      0.0001546     -0.0003851
+   22      0.0154553     -0.0237267
+   23      0.0041383     -0.0085861
+   24      0.0002991     -0.0009017
+   25      0.0000000     -0.0000001
+   26      0.0000017     -0.0000107
+   27      0.0001739     -0.0007560
+   28      0.0000297     -0.0001427
+   29      0.0000012     -0.0000069
+   30      0.0000026     -0.0000157
+   31      0.0005764     -0.0016382
+   32      0.0000028     -0.0000171
+   33      0.0000035     -0.0000216
+   34      0.0000002     -0.0000009
+   35      0.0000007     -0.0000038
+   36      0.0000000     -0.0000001
 
-   RO Sum (  30) =   30.00
+   RO Sum (  36) =   36.00
 
   ---------------
    Dipole Moment
   ---------------
 
-      2.1280 Debye [   0.8372  (   0.4517,  -0.0292,   0.7043) ]
+      2.4573 Debye [   0.9668  (   0.0033,   0.9668,  -0.0040) ]
 
 
   RESULTS OF OCCUPATION-COEFFICIENT OPTIMIZATION
@@ -586,25 +552,29 @@ HEAVY28-teh2_nh3
 
   Ex It  Occ Time  Orb Time  Orb It   Electronic Energy     Total Energy   Energy Convergency    Max Mul-Lag Diff
 
-    1    2.6E-01   1.1E+02      10    -303.8060921346     -270.1001308824     0.0000000000           0.011586
-    2    1.3E-01   1.1E+02      40    -303.8229220174     -270.1169607652    -0.0168298828           0.075013
-    3    1.7E-01   2.1E+01      50    -303.8606976173     -270.1547363651    -0.0377755999           0.003783
-    4    1.3E-01   2.5E+01      60    -303.8958007259     -270.1898394738    -0.0351031087           0.003181
-    5    1.5E-01   3.3E+01      60    -304.0244150701     -270.3184538179    -0.1286143441           0.005945
-    6    1.7E-01   8.3E+01      60    -304.2248561060     -270.5188948539    -0.2004410360           0.008533
-    7    1.8E-01   1.1E+02      60    -304.4454031616     -270.7394419095    -0.2205470556           0.005457
-    8    1.8E-01   3.7E+01      60    -304.4891360574     -270.7831748052    -0.0437328958           0.002717
-    9    1.4E-01   6.0E+01      60    -304.5066884382     -270.8007271861    -0.0175523808           0.001897
-   10    1.7E-01   5.7E+01      60    -304.5155434714     -270.8095822192    -0.0088550332           0.001116
-   11    1.3E-01   6.2E+01      46    -304.5198566095     -270.8138953573    -0.0043131381           0.000966
-   12    1.3E-01   6.4E+01      50    -304.5229536814     -270.8169924292    -0.0030970719           0.000995
-   13    1.4E-01   1.0E+02      60    -304.5259713133     -270.8200100611    -0.0030176319           0.001434
-   14    1.3E-01   2.4E+02      60    -304.5289761143     -270.8230148622    -0.0030048011           0.001747
-   15    1.9E-01   8.3E+01      60    -304.5314072427     -270.8254459906    -0.0024311284           0.001496
-   16    1.5E-01   1.5E+02      47    -304.5327697266     -270.8268084745    -0.0013624839           0.000997
-   17    1.9E-01   4.0E+01      47    -304.5335886990     -270.8276274468    -0.0008189724           0.000981
-   18    1.7E-01   3.7E-01       0    -304.5336657077     -270.8277044556    -0.0000770087           0.000981
-   19    1.3E-01   1.5E-01       0    -304.5336657295     -270.8277044773    -0.0000000217           0.000981
+    1    2.1E-01   5.2E+01      10    -393.2614036398     -324.4413780171    -0.0000000000           0.027004
+    2    1.6E-01   8.9E+01      40    -393.2904374065     -324.4704117838    -0.0290337667           0.217127
+    3    1.5E-01   7.8E+01      50    -393.3352564810     -324.5152308582    -0.0448190745           0.002381
+    4    1.8E-01   8.0E+01      60    -393.3676034217     -324.5475777990    -0.0323469407           0.002342
+    5    1.5E-01   1.1E+02      60    -393.4588340234     -324.6388084007    -0.0912306017           0.004885
+    6    1.8E-01   1.3E+02      60    -393.7605083287     -324.9404827060    -0.3016743053           0.004973
+    7    2.0E-01   1.6E+02      60    -393.9332751228     -325.1132495001    -0.1727667941           0.008203
+    8    2.0E-01   1.4E+02      60    -393.9966228943     -325.1765972715    -0.0633477714           0.005113
+    9    1.7E-01   7.2E+01      60    -394.0216633437     -325.2016377209    -0.0250404494           0.005673
+   10    1.9E-01   1.3E+02      60    -394.0368785446     -325.2168529218    -0.0152152009           0.005574
+   11    2.1E-01   1.3E+02      60    -394.0484399884     -325.2284143657    -0.0115614439           0.005984
+   12    1.5E-01   1.4E+02      60    -394.0581133962     -325.2380877735    -0.0096734078           0.006865
+   13    1.5E-01   1.5E+02      60    -394.0650414191     -325.2450157964    -0.0069280229           0.006745
+   14    1.5E-01   8.1E+01      60    -394.0693764522     -325.2493508294    -0.0043350330           0.006526
+   15    1.9E-01   1.6E+02      60    -394.0719630807     -325.2519374580    -0.0025866286           0.006809
+   16    1.9E-01   8.1E+01      60    -394.0732152150     -325.2531895923    -0.0012521343           0.004722
+   17    1.6E-01   1.2E+02      60    -394.0735596629     -325.2535340401    -0.0003444479           0.006372
+   18    1.5E-01   1.3E+02      60    -394.0736863022     -325.2536606795    -0.0001266393           0.004603
+   19    1.4E-01   1.4E+02      60    -394.0736985089     -325.2536728862    -0.0000122067           0.005457
+   20    1.5E-01   1.3E+02      60    -394.0737654206     -325.2537397978    -0.0000669116           0.004948
+   21    1.5E-01   1.1E+02      60    -394.0737629563     -325.2537373336     0.0000024643           0.005129
+   22    1.4E-01   1.3E+02      48    -394.0741726798     -325.2541470570    -0.0004097234           0.000983
+   23    1.5E-01   2.9E-01      48    -394.0741730854     -325.2541474627    -0.0000004057           0.000983
 
 
   RESULTS OF THE OCCUPATION OPTIMIZATION
@@ -612,50 +582,56 @@ HEAVY28-teh2_nh3
 
    OM     Occupation      Elag Diag
 
-    1      1.9983501     -7.0994451
-    2      1.9973217     -5.0969270
-    3      1.9972537     -5.1091749
-    4      1.9971063     -5.0946924
-    5      1.9863582     -1.0746470
-    6      1.9842381     -1.5739196
-    7      1.9842205     -1.5753289
-    8      1.9838752     -1.5134710
-    9      1.9838142     -1.4620143
-   10      1.9836699     -1.4692502
-   11      1.9835693     -0.8393462
-   12      1.9835254     -1.4278524
-   13      1.9829177     -1.1935051
-   14      1.9699454     -0.4200614
-   15      1.9689102     -0.4575290
-   16      0.0310898     -0.0337575
-   17      0.0300546     -0.0330555
-   18      0.0170823     -0.0435221
-   19      0.0164746     -0.0456357
-   20      0.0164307     -0.0231002
-   21      0.0163301     -0.0456073
-   22      0.0161858     -0.0453065
-   23      0.0161248     -0.0455124
-   24      0.0157795     -0.0454146
-   25      0.0157619     -0.0454106
-   26      0.0136418     -0.0205529
-   27      0.0028937     -0.0128002
-   28      0.0027463     -0.0121551
-   29      0.0026783     -0.0118705
-   30      0.0016499     -0.0100859
+    1      1.9996161    -15.5623658
+    2      1.9983722     -7.0821347
+    3      1.9972359     -5.0703059
+    4      1.9971087     -5.0810853
+    5      1.9970938     -5.0910020
+    6      1.9845388     -1.7166709
+    7      1.9844238     -1.6469929
+    8      1.9843118     -1.6497313
+    9      1.9842049     -1.5947809
+   10      1.9840721     -1.5796577
+   11      1.9836834     -1.4787272
+   12      1.9836648     -1.4537293
+   13      1.9833559     -0.8597974
+   14      1.9716678     -0.6306278
+   15      1.9716433     -0.6299722
+   16      1.9716210     -0.6295442
+   17      1.9686849     -0.4399322
+   18      1.9680564     -0.4395385
+   19      0.0319436     -0.0351250
+   20      0.0313151     -0.0343025
+   21      0.0283790     -0.0303415
+   22      0.0283567     -0.0303433
+   23      0.0283322     -0.0303482
+   24      0.0166441     -0.0223208
+   25      0.0163352     -0.0456454
+   26      0.0163166     -0.0457683
+   27      0.0159279     -0.0457432
+   28      0.0157951     -0.0456436
+   29      0.0156882     -0.0457600
+   30      0.0155762     -0.0455182
+   31      0.0154612     -0.0457100
+   32      0.0029062     -0.0129854
+   33      0.0028913     -0.0123147
+   34      0.0027641     -0.0122559
+   35      0.0016278     -0.0102333
+   36      0.0003839     -0.0092544
 
-   RO Sum (  30) =   30.00
+   RO Sum (  36) =   36.00
 
   ---------------
    Dipole Moment
   ---------------
 
-      2.2257 Debye [   0.8757  (   0.4411,   0.2179,   0.7244) ]
+      2.5664 Debye [   1.0097  (  -0.0139,   1.0096,  -0.0004) ]
 
  ----------------
   Final Energies  
  ----------------
 
-  Final NOF Total Energy =     -270.8277044773 ( 1.E-03 , 0.E+00 )
+  Final NOF Total Energy =     -325.2541474627 ( 1.E-03 , 0.E+00 )
 
 
   **************************************************
@@ -669,14 +645,14 @@ HEAVY28-teh2_nh3
   **************************************************
 
   **************************************************
-  *         No. EXTERNAL ITER =    19              *
-  *         No. of TOTAL ITER =   890              *
+  *         No. EXTERNAL ITER =    23              *
+  *         No. of TOTAL ITER =  1276              *
   **************************************************
 
-  Elapsed real time :   1388.79  (Seconds)
+  Elapsed real time :   2545.00  (Seconds)
 
- The execution finished at 14h 11min on the 11/ 4/2025
+ The execution finished at 18h 38min on the 11/13/2025
 Recovering execution output...
-Moving from /scratch/pobleyef/345651 to /home-nas/pobleyef/Slim-NOF/ncwo1/Slim16/GNOFm20/arina.345651
-mkdir -p /home-nas/pobleyef/Slim-NOF/ncwo1/Slim16/GNOFm20/arina.345651
-mv /scratch/pobleyef/345651/* /home-nas/pobleyef/Slim-NOF/ncwo1/Slim16/GNOFm20/arina.345651
+Moving from /scratch/pobleyef/356004 to /home-nas/pobleyef/Slim-NOF/ncwo1/Slim16/GNOFm20/arina.356004
+mkdir -p /home-nas/pobleyef/Slim-NOF/ncwo1/Slim16/GNOFm20/arina.356004
+mv /scratch/pobleyef/356004/* /home-nas/pobleyef/Slim-NOF/ncwo1/Slim16/GNOFm20/arina.356004
